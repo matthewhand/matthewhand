@@ -34,7 +34,7 @@ than replacing them, and touches nothing in `/usr/share/omarchy`.
 
 | Project | Upstream | What I did | Maturity |
 |---|---|---|---|
-| `holman-linux-python` | `scottmckenzie/holman-linux-python` — **no longer public** | Kept as a local fork and deliberately never pushed back. The upstream repo has since disappeared, so no patch can be diffed or credited. | **Local only.** I didn't trust an AI-assisted workflow not to push unfinished work upstream, so it stayed here. |
+| `holman-linux-python` | `scottmckenzie/holman-linux-python` — **no longer public** | Public fork preserved for reference; not contributed upstream. The upstream repo has since disappeared, so no patch can be diffed or credited. | **Public fork; experimental.** Treat this as an unfinished copy, not an upstream-maintained release. |
 
 I also carry private mirrors of several upstream projects I use on the desktop
 (an `xdg-desktop-portal-hyprland` fork with `RemoteDesktop` support, plus a
@@ -42,7 +42,69 @@ Deskflow source mirror), kept private so I can patch them without upstream noise
 
 ## Notes
 
-- The bar widgets I wrote for my own desktop live in private repos, except
-  `omarchy-screensaver-cadence`.
+- Some desktop tools remain private. The directory below lists all repositories currently public under this account.
 - Anything labelled stable above is something I'd use again tomorrow. Anything
   labelled alpha is a work in progress that happens to be public.
+
+## All public repositories
+_Public repository navigation as verified on 12 October 2026. Private repositories are intentionally excluded. A listing is not a statement that a project is release-ready._
+
+### Original projects (13)
+| Repository | Description |
+|---|---|
+| [llama-stack-bridge](https://github.com/matthewhand/llama-stack-bridge) | Bridges Meta's llama stack serve endpoint via nginx js transform to expose an Openai compatible endpoint |
+| [matthewhand](https://github.com/matthewhand/matthewhand) | Profile README for matthewhand |
+| [matthewhand.github.io](https://github.com/matthewhand/matthewhand.github.io) | Public repository |
+| [mcp-flowise](https://github.com/matthewhand/mcp-flowise) | Public repository |
+| [mcp-openapi-proxy](https://github.com/matthewhand/mcp-openapi-proxy) | MCP server that dynamically exposes REST APIs defined by OpenAPI specs. Dual-stack MCP 1.x/2.x with native Streamable HTTP. |
+| [omarchy-deskflow-applet](https://github.com/matthewhand/omarchy-deskflow-applet) | Public repository |
+| [omarchy-screensaver-cadence](https://github.com/matthewhand/omarchy-screensaver-cadence) | Rotating ASCII display for Omarchy: text, image, live data and notification slides |
+| [open-webui-integrations](https://github.com/matthewhand/open-webui-integrations) | Public repository |
+| [openai-f5-tts](https://github.com/matthewhand/openai-f5-tts) | This project provides a Flask-based API for generating high-quality text-to-speech (TTS) audio using F5-TTS, a flexible and powerful TTS engine. The API supports cus |
+| [openai-kokoro-tts](https://github.com/matthewhand/openai-kokoro-tts) | Present Kokoro TTS as an OpenAI API compatible endpoint |
+| [operating-swarm](https://github.com/matthewhand/operating-swarm) | Operating Swarm (OS): provider-agnostic agent operating layer and harness. Native execution, external harnesses, and peer OS instances as one abstraction. |
+| [perplexica-aws](https://github.com/matthewhand/perplexica-aws) | Public repository |
+| [snapdragon-npu-hexagon-kit](https://github.com/matthewhand/snapdragon-npu-hexagon-kit) | Shared Hexagon NPU runtime kit for first-generation Copilot+ PCs: hardware probe, model catalog, XDG cache, and preflight. |
+
+### Forks and upstream experiments (38)
+| Repository | Description |
+|---|---|
+| [accept-a-payment](https://github.com/matthewhand/accept-a-payment) | Learn how to accept a payment from customers around the world with a variety of payment methods. |
+| [amd-strix-halo-image-video-distrobox](https://github.com/matthewhand/amd-strix-halo-image-video-distrobox) | ROCm distrobox/Docker environment for image & video generation (Qwen Image/Edit, WAN 2.2, LTX-2, ComfyUI) on AMD Strix Halo / gfx1151 · **Archived** |
+| [ansible_role_microk8s](https://github.com/matthewhand/ansible_role_microk8s) | Ansible role to install microk8s on ubuntu |
+| [audio.cpp-hub](https://github.com/matthewhand/audio.cpp-hub) | Web GUI for audio.cpp |
+| [chatterbox](https://github.com/matthewhand/chatterbox) | Public fork |
+| [ChatterCraft-Pinokio](https://github.com/matthewhand/ChatterCraft-Pinokio) | ChatterCraft is a Gradio app that integrates an LLM for story generation with ChatterBox TTS voice cloning. Users can create unique stories from prompts or input tex |
+| [Chattered](https://github.com/matthewhand/Chattered) | All in one Gradio interface for chatterbox. Voice cloning from uploaded audio samples, automatic text processing for long content and real-time speech generation wit |
+| [docker-compose-ui](https://github.com/matthewhand/docker-compose-ui) | web interface for Docker Compose |
+| [GroqCasters](https://github.com/matthewhand/GroqCasters) | Public fork |
+| [herdr](https://github.com/matthewhand/herdr) | the runtime your coding agents live on |
+| [holman-linux-python](https://github.com/matthewhand/holman-linux-python) | Holman SDK for Python on Linux |
+| [htpc-download-box](https://github.com/matthewhand/htpc-download-box) | Sonarr / Radarr / Jackett / NZBGet / Deluge / OpenVPN / Plex |
+| [InkMemories](https://github.com/matthewhand/InkMemories) | A cloud-powered, eInk, smart photo frame. |
+| [labs-Voice-Agent](https://github.com/matthewhand/labs-Voice-Agent) | A fully opensource framework for building and evaluating voice agents with open models. |
+| [MagicQuill](https://github.com/matthewhand/MagicQuill) | An intelligent, interactive Image Editing System. Easily erase and add objects on a user-friendly interface. |
+| [omarchy-chronos](https://github.com/matthewhand/omarchy-chronos) | Omarchy bar clock whose calendar has a pulse — day-progress ring, drawn moon phase, shimmering year/life rails, staggered month grid. A fork of omarchy.clock. |
+| [omarchy-osk](https://github.com/matthewhand/omarchy-osk) | Public fork |
+| [omniplex](https://github.com/matthewhand/omniplex) | Open-Source Perplexity |
+| [open-webui](https://github.com/matthewhand/open-webui) | User-friendly AI Interface (Supports Ollama, OpenAI API, ...) |
+| [openaudio](https://github.com/matthewhand/openaudio) | Public fork |
+| [OpenMausBot](https://github.com/matthewhand/OpenMausBot) | Public fork |
+| [openmuse-1](https://github.com/matthewhand/openmuse-1) | A personal agent with a browser, terminal, files, and work that keeps going built with CopilotKit and AG-UI. |
+| [openwebui-docs](https://github.com/matthewhand/openwebui-docs) | https://docs.openwebui.com |
+| [Orpheus-TTS-FastAPI](https://github.com/matthewhand/Orpheus-TTS-FastAPI) | Public fork |
+| [persona](https://github.com/matthewhand/persona) | Bringing real-time voice to life. |
+| [rakazo](https://github.com/matthewhand/rakazo) | Open-source Grok Bot alternative. Choose your own model and sandbox. |
+| [rift](https://github.com/matthewhand/rift) | 󰦛 Rift: native Omarchy bar plugin that remembers which apps belong on a workspace and brings them back in one click. No geometry. Hyprland tiles, Rift remembers. |
+| [self-hosted-ai-starter-kit](https://github.com/matthewhand/self-hosted-ai-starter-kit) | The Self-hosted AI Starter Kit is an open-source template that quickly sets up a local AI environment. Curated by n8n, it provides essential tools for creating secur |
+| [server-wp-mcp](https://github.com/matthewhand/server-wp-mcp) | Public fork |
+| [stripe-checkout-next-js-demo](https://github.com/matthewhand/stripe-checkout-next-js-demo) | Public fork |
+| [talkbot](https://github.com/matthewhand/talkbot) | Text-to-speech and translation bot for Discord |
+| [trueforge](https://github.com/matthewhand/trueforge) | The open-source agent harness - the runtime layer that turns an LLM into a working agent. |
+| [ugv_rpi](https://github.com/matthewhand/ugv_rpi) | Raspberry Pi example for the WaveShare UGV robots: WAVE ROVER, UGV Rover, UGV Beast, RaspRover, UGV01, UGV02. |
+| [Ultimate-TTS-Studio](https://github.com/matthewhand/Ultimate-TTS-Studio) | 🟢 NVIDIA ONLY – All-in-One TTS App with Kokoro, KittenTTS, Higgs audio, Chatterbox, Fish-Speech, F5 & index-tts & indextts2, Supports Conversation Mode & eBook-to-Au |
+| [vectara-ingest](https://github.com/matthewhand/vectara-ingest) | An open source framework to crawl data sources and ingest into Vectara |
+| [vibevoice-realtime](https://github.com/matthewhand/vibevoice-realtime) | Public fork |
+| [VoiceMem](https://github.com/matthewhand/VoiceMem) | Infrastructure for the next generation of voice agents, designed to provide universal memory. It is divided into a left brain and a right brain, storing information  |
+| [webxr-samples](https://github.com/matthewhand/webxr-samples) | Samples to demonstrate use of the WebXR Device API |
+

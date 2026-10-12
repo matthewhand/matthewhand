@@ -49,9 +49,10 @@ Deskflow source mirror), kept private so I can patch them without upstream noise
 ## All public repositories
 _Public repository navigation as verified on 12 October 2026. Private repositories are intentionally excluded. A listing is not a statement that a project is release-ready._
 
-### Original projects (13)
+### Original projects (14)
 | Repository | Description |
 |---|---|
+| [funes-vision](https://github.com/matthewhand/funes-vision) | Public MVP release in progress; synthetic camera demonstrations submitted through reviewable pull requests. |
 | [llama-stack-bridge](https://github.com/matthewhand/llama-stack-bridge) | Bridges Meta's llama stack serve endpoint via nginx js transform to expose an Openai compatible endpoint |
 | [matthewhand](https://github.com/matthewhand/matthewhand) | Profile README for matthewhand |
 | [matthewhand.github.io](https://github.com/matthewhand/matthewhand.github.io) | Public repository |

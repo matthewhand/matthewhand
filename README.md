@@ -48,12 +48,12 @@ Deskflow source mirror), kept private so I can patch them without upstream noise
 
 ## Notes
 
-- Some desktop tools remain private, including the featured Deskflow applet. The directory below lists the remaining public repositories; OpenAI Kokoro TTS, Funes Vision, Llama Stack Bridge MCP Flowise and OpenAI F5-TTS are featured above.
+- Some desktop tools remain private, including the featured Deskflow applet. The directory below lists the remaining public repositories; OpenAI Kokoro TTS, Funes Vision, Llama Stack Bridge, MCP Flowise and OpenAI F5-TTS are featured above.
 - Anything labelled stable above is something I'd use again tomorrow. Alpha
   indicates work in progress; entries explicitly marked private are not public releases.
 
 ## Public repository directory
-_Public repository navigation updated on 13 October 2026. OpenAI Kokoro TTS, Funes Vision, Llama Stack Bridge MCP Flowise and OpenAI F5-TTS are featured above; the remaining public repositories are listed below. Private repositories are excluded from the directory; the featured Deskflow applet is explicitly marked private. A listing is not a statement that a project is release-ready._
+_Public repository navigation updated on 13 October 2026. OpenAI Kokoro TTS, Funes Vision, Llama Stack Bridge, MCP Flowise and OpenAI F5-TTS are featured above; the remaining public repositories are listed below. Private repositories are excluded from the directory; the featured Deskflow applet is explicitly marked private. A listing is not a statement that a project is release-ready._
 
 ### Other original projects (8)
 | Repository | Description |

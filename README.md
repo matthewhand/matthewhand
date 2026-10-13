@@ -12,6 +12,7 @@ honestly: I'd rather label something **alpha** than imply it's finished.
 | Project | What it does | Maturity |
 |---|---|---|
 | **[funes-vision](https://github.com/matthewhand/funes-vision)** | Local-first camera snapshot archive. A Python watched-folder preview indexes JPEGs, groups frames into visits and serves a browser timeline; a separate refined dashboard uses fictional fixtures. Object detection and vision-model decisions remain future integrations. | **Alpha — synthetic MVP preview.** Published demonstration: 10 fictional JPEGs grouped into 7 visits. No production camera integration or actual model inference demonstrated. |
+| **[llama-stack-bridge](https://github.com/matthewhand/llama-stack-bridge)** | Small Nginx/njs adapter intended to translate Llama Stack model-list and non-streaming chat-completion responses into OpenAI-style JSON. Docker Compose example included; streaming is still a TODO. | **Experimental / legacy prototype.** Source-only review: no published automated tests or verified working deployment; configuration, build, compatibility and security gates remain open. Not production-ready. |
 | **[mcp-openapi-proxy](https://github.com/matthewhand/mcp-openapi-proxy)** ⭐ 156 | MCP server that dynamically exposes REST APIs described by OpenAPI specs. Dual-stack MCP 1.x / 2.x, with native Streamable HTTP so stateless POST `/mcp` works behind round-robin load balancing without sticky sessions. | **Stable** — v0.4.0, 2026-09-05. The one here I'd actually point you at. |
 | **[omarchy-screensaver-cadence](https://github.com/matthewhand/omarchy-screensaver-cadence)** | Fork of Omarchy's screensaver into a rotating ASCII display. A slide list instead of one static file: `text`, `image`, `images DIR`, `exec` and `notify` slides, each with its own dwell time, and slides can pick their own `ttfx` effect and gradient per rotation. | **Alpha** — works on one machine only. See the honest limits below. |
 
@@ -43,17 +44,16 @@ Deskflow source mirror), kept private so I can patch them without upstream noise
 
 ## Notes
 
-- Some desktop tools remain private. The directory below lists the remaining public repositories; Funes Vision is featured above.
+- Some desktop tools remain private. The directory below lists the remaining public repositories; Funes Vision and Llama Stack Bridge are featured above.
 - Anything labelled stable above is something I'd use again tomorrow. Anything
   labelled alpha is a work in progress that happens to be public.
 
 ## Public repository directory
-_Public repository navigation as verified on 12 October 2026. Funes Vision has been moved to the featured table above; the other public repositories are listed below. Private repositories are excluded. A listing is not a statement that a project is release-ready._
+_Public repository navigation updated on 13 October 2026. Funes Vision and Llama Stack Bridge are featured above; the remaining public repositories are listed below. Private repositories are excluded. A listing is not a statement that a project is release-ready._
 
-### Other original projects (13)
+### Other original projects (12)
 | Repository | Description |
 |---|---|
-| [llama-stack-bridge](https://github.com/matthewhand/llama-stack-bridge) | Bridges Meta's llama stack serve endpoint via nginx js transform to expose an Openai compatible endpoint |
 | [matthewhand](https://github.com/matthewhand/matthewhand) | Profile README for matthewhand |
 | [matthewhand.github.io](https://github.com/matthewhand/matthewhand.github.io) | Public repository |
 | [mcp-flowise](https://github.com/matthewhand/mcp-flowise) | Public repository |

@@ -16,6 +16,7 @@ honestly: I'd rather label something **alpha** than imply it's finished.
 | **[llama-stack-bridge](https://github.com/matthewhand/llama-stack-bridge)** | Small Nginx/njs adapter intended to translate Llama Stack model-list and non-streaming chat-completion responses into OpenAI-style JSON. Docker Compose example included; streaming is still a TODO. | **Experimental / legacy prototype.** Source-only review: no published automated tests or verified working deployment; configuration, build, compatibility and security gates remain open. Not production-ready. |
 | **[mcp-flowise](https://github.com/matthewhand/mcp-flowise)** | Python MCP server that connects clients to Flowise chatflows. Offers FastMCP tools to list chatflows and request predictions, plus low-level dynamic per-chatflow tools. | **Experimental / pre-release.** Source-only review finds tool-authorization, stdio logging, configuration and HTTP error-handling gaps. Not production-ready; assistant integration unverified here. |
 | **[mcp-openapi-proxy](https://github.com/matthewhand/mcp-openapi-proxy)** ⭐ 156 | MCP server that dynamically exposes REST APIs described by OpenAPI specs. Dual-stack MCP 1.x / 2.x, with native Streamable HTTP so stateless POST `/mcp` works behind round-robin load balancing without sticky sessions. | **Stable** — v0.4.0, 2026-09-05. The one here I'd actually point you at. |
+| **[omarchy-deskflow-applet](https://github.com/matthewhand/omarchy-deskflow-applet)** | Omarchy/Quickshell bar applet to control Deskflow client connections and show connection status. Depends on a patched Wayland RemoteDesktop portal. | **Private alpha / not a public release.** Single-system development evidence; clean installation, connection controls and security behaviour are not independently verified. Repository access is restricted. |
 | **[omarchy-screensaver-cadence](https://github.com/matthewhand/omarchy-screensaver-cadence)** | Fork of Omarchy's screensaver into a rotating ASCII display. A slide list instead of one static file: `text`, `image`, `images DIR`, `exec` and `notify` slides, each with its own dwell time, and slides can pick their own `ttfx` effect and gradient per rotation. | **Alpha** — works on one machine only. See the honest limits below. |
 
 ### Why "alpha" and not "beta"
@@ -46,20 +47,19 @@ Deskflow source mirror), kept private so I can patch them without upstream noise
 
 ## Notes
 
-- Some desktop tools remain private. The directory below lists the remaining public repositories; OpenAI Kokoro TTS, Funes Vision, Llama Stack Bridge and MCP Flowise are featured above.
-- Anything labelled stable above is something I'd use again tomorrow. Anything
-  labelled alpha is a work in progress that happens to be public.
+- Some desktop tools remain private, including the featured Deskflow applet. The directory below lists the remaining public repositories; OpenAI Kokoro TTS, Funes Vision, Llama Stack Bridge and MCP Flowise are featured above.
+- Anything labelled stable above is something I'd use again tomorrow. Alpha
+  indicates work in progress; entries explicitly marked private are not public releases.
 
 ## Public repository directory
-_Public repository navigation updated on 13 October 2026. OpenAI Kokoro TTS, Funes Vision, Llama Stack Bridge and MCP Flowise are featured above; the remaining public repositories are listed below. Private repositories are excluded. A listing is not a statement that a project is release-ready._
+_Public repository navigation updated on 13 October 2026. OpenAI Kokoro TTS, Funes Vision, Llama Stack Bridge and MCP Flowise are featured above; the remaining public repositories are listed below. Private repositories are excluded from the directory; the featured Deskflow applet is explicitly marked private. A listing is not a statement that a project is release-ready._
 
-### Other original projects (10)
+### Other original projects (9)
 | Repository | Description |
 |---|---|
 | [matthewhand](https://github.com/matthewhand/matthewhand) | Profile README for matthewhand |
 | [matthewhand.github.io](https://github.com/matthewhand/matthewhand.github.io) | Public repository |
 | [mcp-openapi-proxy](https://github.com/matthewhand/mcp-openapi-proxy) | MCP server that dynamically exposes REST APIs defined by OpenAPI specs. Dual-stack MCP 1.x/2.x with native Streamable HTTP. |
-| [omarchy-deskflow-applet](https://github.com/matthewhand/omarchy-deskflow-applet) | Public repository |
 | [omarchy-screensaver-cadence](https://github.com/matthewhand/omarchy-screensaver-cadence) | Rotating ASCII display for Omarchy: text, image, live data and notification slides |
 | [open-webui-integrations](https://github.com/matthewhand/open-webui-integrations) | Public repository |
 | [openai-f5-tts](https://github.com/matthewhand/openai-f5-tts) | This project provides a Flask-based API for generating high-quality text-to-speech (TTS) audio using F5-TTS, a flexible and powerful TTS engine. The API supports cus |

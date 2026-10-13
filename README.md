@@ -11,6 +11,7 @@ honestly: I'd rather label something **alpha** than imply it's finished.
 
 | Project | What it does | Maturity |
 |---|---|---|
+| **[openai-kokoro-tts](https://github.com/matthewhand/openai-kokoro-tts)** | Original Flask integration exposing Kokoro TTS through OpenAI-style speech and model-list endpoints, built around a third-party Kokoro model. Includes ONNX and Docker experiments; optional GPU providers are proposed in PR #2. | **Experimental / repair required.** Source-only audit found speech output-contract, Docker build, API authorization and README discrepancies. Prior live CPU speech evidence exists, but published `main` is not independently verified as runnable. Not production-ready. |
 | **[funes-vision](https://github.com/matthewhand/funes-vision)** | Local-first camera snapshot archive. A Python watched-folder preview indexes JPEGs, groups frames into visits and serves a browser timeline; a separate refined dashboard uses fictional fixtures. Object detection and vision-model decisions remain future integrations. | **Alpha — synthetic MVP preview.** Published demonstration: 10 fictional JPEGs grouped into 7 visits. No production camera integration or actual model inference demonstrated. |
 | **[llama-stack-bridge](https://github.com/matthewhand/llama-stack-bridge)** | Small Nginx/njs adapter intended to translate Llama Stack model-list and non-streaming chat-completion responses into OpenAI-style JSON. Docker Compose example included; streaming is still a TODO. | **Experimental / legacy prototype.** Source-only review: no published automated tests or verified working deployment; configuration, build, compatibility and security gates remain open. Not production-ready. |
 | **[mcp-flowise](https://github.com/matthewhand/mcp-flowise)** | Python MCP server that connects clients to Flowise chatflows. Offers FastMCP tools to list chatflows and request predictions, plus low-level dynamic per-chatflow tools. | **Experimental / pre-release.** Source-only review finds tool-authorization, stdio logging, configuration and HTTP error-handling gaps. Not production-ready; assistant integration unverified here. |
@@ -45,14 +46,14 @@ Deskflow source mirror), kept private so I can patch them without upstream noise
 
 ## Notes
 
-- Some desktop tools remain private. The directory below lists the remaining public repositories; Funes Vision, Llama Stack Bridge and MCP Flowise are featured above.
+- Some desktop tools remain private. The directory below lists the remaining public repositories; OpenAI Kokoro TTS, Funes Vision, Llama Stack Bridge and MCP Flowise are featured above.
 - Anything labelled stable above is something I'd use again tomorrow. Anything
   labelled alpha is a work in progress that happens to be public.
 
 ## Public repository directory
-_Public repository navigation updated on 13 October 2026. Funes Vision, Llama Stack Bridge and MCP Flowise are featured above; the remaining public repositories are listed below. Private repositories are excluded. A listing is not a statement that a project is release-ready._
+_Public repository navigation updated on 13 October 2026. OpenAI Kokoro TTS, Funes Vision, Llama Stack Bridge and MCP Flowise are featured above; the remaining public repositories are listed below. Private repositories are excluded. A listing is not a statement that a project is release-ready._
 
-### Other original projects (11)
+### Other original projects (10)
 | Repository | Description |
 |---|---|
 | [matthewhand](https://github.com/matthewhand/matthewhand) | Profile README for matthewhand |
@@ -62,7 +63,6 @@ _Public repository navigation updated on 13 October 2026. Funes Vision, Llama St
 | [omarchy-screensaver-cadence](https://github.com/matthewhand/omarchy-screensaver-cadence) | Rotating ASCII display for Omarchy: text, image, live data and notification slides |
 | [open-webui-integrations](https://github.com/matthewhand/open-webui-integrations) | Public repository |
 | [openai-f5-tts](https://github.com/matthewhand/openai-f5-tts) | This project provides a Flask-based API for generating high-quality text-to-speech (TTS) audio using F5-TTS, a flexible and powerful TTS engine. The API supports cus |
-| [openai-kokoro-tts](https://github.com/matthewhand/openai-kokoro-tts) | Present Kokoro TTS as an OpenAI API compatible endpoint |
 | [operating-swarm](https://github.com/matthewhand/operating-swarm) | Operating Swarm (OS): provider-agnostic agent operating layer and harness. Native execution, external harnesses, and peer OS instances as one abstraction. |
 | [perplexica-aws](https://github.com/matthewhand/perplexica-aws) | Public repository |
 | [snapdragon-npu-hexagon-kit](https://github.com/matthewhand/snapdragon-npu-hexagon-kit) | Shared Hexagon NPU runtime kit for first-generation Copilot+ PCs: hardware probe, model catalog, XDG cache, and preflight. |

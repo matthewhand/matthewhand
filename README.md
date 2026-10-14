@@ -1,47 +1,43 @@
 # Hey, I'm matthewh
 
 I work on a personal [Omarchy](https://omarchy.dev) desktop and the tooling around
-it — an AI-assisted setup where the agent tooling, the window manager config and
+it — an AI-assisted setup where agent tooling, window-manager configuration and
 the desktop itself are all first-class citizens.
 
-Most of what I publish is small and specific. The maturity column is meant
-honestly: I'd rather label something **alpha** than imply it's finished.
+I publish small tools, experiments and substantial derivative work. This is a
+curated selection, with upstream origins acknowledged where applicable.
 
-## Projects I've built or substantially developed
+## Projects
 
-A curated selection of original projects and significant derivative work, with upstream origins acknowledged where applicable.
+Status and evidence reviewed **14 October 2026**. A published version, passing
+tests and a demonstration each establish different things. The table records
+the evidence available for each project and the remaining verification.
 
-| Project | What it does | Maturity |
-|---|---|---|
-| **[operating-swarm](https://github.com/matthewhand/operating-swarm)** | Agent operating layer evolved from OpenAI's experimental Swarm, with a Django API, CLI/WebUI, blueprints, handoffs and external-harness adapters. | **Experimental alpha (`main`).** Published v0.5.4 predates newer source work; the API/Blueprint separation remains incomplete, and the latest public `main` run includes a failed Python Tests workflow. Not independently production-validated. |
-| **[snapdragon-npu-hexagon-kit](https://github.com/matthewhand/snapdragon-npu-hexagon-kit)** | Python library for Snapdragon Copilot+ hardware detection, model caching, resource preflight, CLI and application status reporting. | **Alpha / pre-release (0.3.0 candidate).** Source and synthetic tests available; live QNN execution and public package release not independently verified. |
-| **[openai-kokoro-tts](https://github.com/matthewhand/openai-kokoro-tts)** | Original Flask integration exposing Kokoro TTS through OpenAI-style speech and model-list endpoints, built around a third-party Kokoro model. Includes ONNX and Docker experiments; optional GPU providers are proposed in PR #2. | **Experimental / repair required.** Source-only audit found speech output-contract, Docker build, API authorization and README discrepancies. Prior live CPU speech evidence exists, but published `main` is not independently verified as runnable. Not production-ready. |
-| **[funes-vision](https://github.com/matthewhand/funes-vision)** | Local-first camera snapshot archive. A Python watched-folder preview indexes JPEGs, groups frames into visits and serves a browser timeline; a separate refined dashboard uses fictional fixtures. Object detection and vision-model decisions remain future integrations. | **Alpha — synthetic MVP preview.** Published demonstration: 10 fictional JPEGs grouped into 7 visits. No production camera integration or actual model inference demonstrated. |
-| **[llama-stack-bridge](https://github.com/matthewhand/llama-stack-bridge)** | Small Nginx/njs adapter intended to translate Llama Stack model-list and non-streaming chat-completion responses into OpenAI-style JSON. Docker Compose example included; streaming is still a TODO. | **Experimental / legacy prototype.** Source-only review: no published automated tests or verified working deployment; configuration, build, compatibility and security gates remain open. Not production-ready. |
-| **[mcp-flowise](https://github.com/matthewhand/mcp-flowise)** | Python MCP server that connects clients to Flowise chatflows. Offers FastMCP tools to list chatflows and request predictions, plus low-level dynamic per-chatflow tools. | **Experimental / pre-release.** Source-only review finds tool-authorization, stdio logging, configuration and HTTP error-handling gaps. Not production-ready; assistant integration unverified here. |
-| **[mcp-openapi-proxy](https://github.com/matthewhand/mcp-openapi-proxy)** ⭐ 157 | MCP server that dynamically exposes REST APIs described by OpenAPI specs. Dual-stack MCP 1.x / 2.x, with native Streamable HTTP so stateless POST `/mcp` works behind round-robin load balancing without sticky sessions. | **Most mature / release candidate** — package version 0.4.0; CI and the publish workflow are green. Still has 7 open issues, including an unresolved Streamable HTTP `$ref` compatibility bug, and `MCP_ALLOWED_HOSTS` defaults to `*` (protection off). Suitable for evaluation and carefully hardened self-hosting; not a blanket production-ready claim. |
-| **[omarchy-deskflow-applet](https://github.com/matthewhand/omarchy-deskflow-applet)** | Omarchy/Quickshell bar applet to control Deskflow client connections and show connection status. Depends on a patched Wayland RemoteDesktop portal. | **Private alpha / not a public release.** Single-system development evidence; clean installation, connection controls and security behaviour are not independently verified. Repository access is restricted. |
-| **omarchy-screensaver-cadence** | Fork of Omarchy's screensaver into a rotating ASCII display. A slide list instead of one static file: `text`, `image`, `images DIR`, `exec` and `notify` slides, each with its own dwell time, and slides can pick their own `ttfx` effect and gradient per rotation. | **Private alpha** — intended repository name: `omarchy-screensaver-cadence`; the current private repository is still named `omarchy-screensaver-cadence-private`. and works on one machine only. See the honest limits below. |
-| **[openai-f5-tts](https://github.com/matthewhand/openai-f5-tts)** | Flask/Gevent wrapper exposing F5-TTS through OpenAI-style speech and voice/model endpoints, plus optional ElevenLabs-shaped timestamp output with estimated (not forced-aligned) timings. Includes model discovery, audio conversion and a Docker Compose example. | **Experimental / alpha.** Source-only review: README, Docker default voice and verification instructions disagree; runtime inference, API hardening and deployment reliability are unverified. Not production-ready. |
+| Project | What it does | Current status | Evidence and remaining work |
+|---|---|---|---|
+| **[operating-swarm](https://github.com/matthewhand/operating-swarm)** | Agent operating layer evolved from OpenAI's experimental Swarm, with Django API, CLI/WebUI, blueprints, handoffs and external-harness adapters. | **Experimental alpha; CI repair in progress.** | June v0.5.4 predates September source work. Latest public Python run: 8,535 passed, 12 skipped, one asynchronous test race failed on Python 3.13. The focused fix exists in private development and is being verified for the public source. Installation and frontend gates are being rechecked. |
+| **[snapdragon-npu-hexagon-kit](https://github.com/matthewhand/snapdragon-npu-hexagon-kit)** | Python library for hardware/provider detection, shared model-file caching, resource preflight and application status reporting. Applications supply their inference loaders. | **Alpha; 0.3.0 candidate.** | Linux CI and synthetic provider/fixture tests exist. Public installation docs still contain private-development instructions. Versioned publication and real QNN inference are separate verification gates. CPU, DirectML and QNN discovery must remain distinct. |
+| **[openai-kokoro-tts](https://github.com/matthewhand/openai-kokoro-tts)** | Flask adapter exposing third-party Kokoro speech synthesis through OpenAI-style speech and model-list routes. | **Experimental; repair branch under verification.** | Published main has inconsistent Docker/Python requirements and incompatible handler/audio-output contracts. An existing CPU-hardening branch addresses these; clean Docker build, real WAV/MP3 synthesis, model/voice compatibility and optional provider work are being verified before integration. |
+| **[funes-vision](https://github.com/matthewhand/funes-vision)** | Local watched-JPEG archive and browser visit timeline; separate refined views use fictional fixtures. | **Alpha; synthetic preview.** | Demonstration groups ten fictional JPEGs into seven visits. An unmerged hardening branch is being tested for file handling, browser behavior and installation. Camera ingestion, object detection and vision-model inference remain future work. |
+| **[llama-stack-bridge](https://github.com/matthewhand/llama-stack-bridge)** | Nginx/njs adapter for a legacy Llama Stack text-chat/model-list contract and OpenAI-style JSON. | **Experimental legacy prototype; draft repair.** | Draft PR #1 addresses configuration, container and request-handling problems. Historical request/response compatibility and real nginx/njs execution against a disposable mock upstream are being verified. Streaming and compatibility with current Llama Stack are unproven. |
+| **[mcp-flowise](https://github.com/matthewhand/mcp-flowise)** | Python MCP connector for Flowise chatflow discovery and predictions, with simple and dynamic tool modes. | **Experimental; repair in progress.** | Source review found dispatch/filter gaps, protocol-stdout logging, ambiguous HTTP failures and Docker/Python inconsistency. Both-mode stdio integration, reproducible packaging and actual Flowise compatibility are verification gates. |
+| **[mcp-openapi-proxy](https://github.com/matthewhand/mcp-openapi-proxy)** | MCP adapter exposing REST APIs described by OpenAPI specifications, including stdio and Streamable HTTP transports. | **Most established in this selection; compatibility limits remain.** | Package metadata is 0.4.0; current Python CI is green and earlier client/API verification is documented. Streamable HTTP schema issue [#74](https://github.com/matthewhand/mcp-openapi-proxy/issues/74) remains open. Host protection defaults and deployment configuration require an explicit review for the intended environment. |
+| **omarchy-deskflow-applet** | Omarchy/Quickshell applet for Deskflow client control and connection status, requiring a patched Wayland RemoteDesktop portal. | **Private alpha.** | Repository access is restricted. Clean installation, connection controls and remote-control consent behavior need a documented verification record. |
+| **omarchy-screensaver-cadence** | Rotating ASCII/image/live-data/notification display for Omarchy, with primary/fallback slides, optional bar widget and cached AI text. | **Private alpha; naming and verification tickets open.** | Current repository is named `omarchy-screensaver-cadence-private`; intended name is `omarchy-screensaver-cadence`. The repository documents live demos, but clean installation, idle routing, integrations and current feature claims are being reconciled through issue tickets. |
+| **[openai-f5-tts](https://github.com/matthewhand/openai-f5-tts)** | Flask/Gevent wrapper for F5-TTS speech and voice/model routes, with optional timestamp output using estimated timings. | **Experimental alpha; draft repair under verification.** | Draft PR #10 adds API, path, cache and output safeguards. Reproducible dependencies, default-model startup, CPU container deployment, request concurrency and actual synthesized audio are being tested. Estimated timestamps are not forced alignment. Model weights have separate upstream licensing. |
 
-### Why "alpha" and not "beta"
+## How to read the status
 
-`omarchy-screensaver-cadence` is private alpha because beta would overstate it. It has an
-installer, a README and a fresh-install smoke test, but:
+- **Experimental / alpha:** usable source or a preview exists; important behavior,
+  installation or deployment checks remain open.
+- **Synthetic verification:** controlled fixtures or mocked dependencies
+  demonstrate the tested contract. Hardware and real-service tests have their
+  own evidence.
+- **Published:** a versioned artifact is available; the source branch and release
+  may differ.
+- **Private:** featured work is described here, but repository access is restricted.
 
-- **One user, one machine.** No external testers.
-- **Two paths are unverified.** The Omarchy menu override parses without error but
-  I've never seen it render in the menu, and the herdr slide has never run with
-  herdr actually up — so its status-driven colouring is untested.
-- **Bugs found and fixed during bring-up**, including a `parse_conf` that appended
-  instead of resetting (duplicating every slide on each rescan) and an `install.sh`
-  that still referenced pre-rename scripts after a rename.
+Repair work stays on candidate branches until review and verification are complete.
+This profile will be updated as those results are integrated.
 
-It builds *on* `omarchy-branding-screensaver` and `omarchy-transcode-ascii` rather
-than replacing them, and touches nothing in `/usr/share/omarchy`.
-
-## Notes
-
-- This is a curated selection, not a complete inventory. [Browse all public repositories](https://github.com/matthewhand?tab=repositories).
-- Some desktop projects remain private, and featured private projects are explicitly labelled.
-- "Stable" describes demonstrated maturity; "alpha" and "experimental" indicate unfinished or unverified work.
+[Browse all public repositories](https://github.com/matthewhand?tab=repositories).

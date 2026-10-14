@@ -8,7 +8,7 @@ A curated mix of original projects and substantial work on upstream foundations,
 
 | Project | Purpose | Maturity |
 |---|---|---|
-| **[mcp-openapi-proxy](https://github.com/matthewhand/mcp-openapi-proxy)** | Turns OpenAPI-described REST endpoints into MCP tools over Streamable HTTP or stdio. | **Established, versioned.** v0.4.0 source tag and PyPI package; latest published GitHub Release: **v0.3.3**. |
+| **[mcp-openapi-proxy](https://github.com/matthewhand/mcp-openapi-proxy)** | Turns OpenAPI-described REST endpoints into MCP tools over Streamable HTTP or stdio. | **Established, versioned.** v0.4.0 tagged source, PyPI package and [published GitHub Release](https://github.com/matthewhand/mcp-openapi-proxy/releases/tag/v0.4.0). |
 | **[operating-swarm](https://github.com/matthewhand/operating-swarm)** | Agent operating layer evolved from OpenAI's experimental Swarm, with API, CLI, WebUI and external harness integrations. | **Experimental alpha.** Main has advanced beyond its published package; architecture remains in transition. |
 | **[funes-vision](https://github.com/matthewhand/funes-vision)** | Local watched-folder browser for JPEG snapshots and grouped visits. | **Alpha synthetic MVP.** 10 fictional frames grouped into 7 visits; live camera and model inference not demonstrated. |
 | **[snapdragon-npu-hexagon-kit](https://github.com/matthewhand/snapdragon-npu-hexagon-kit)** | Python toolkit for Snapdragon hardware/provider discovery, model caching and resource preflight. | **Alpha, v0.3.0 candidate.** Live Hexagon/QNN inference and a public PyPI release remain unverified. |

@@ -21,6 +21,15 @@ A synthetic preview is not a live camera or inference test, and an unmerged draf
 
 ## Private desktop prototypes
 
-I've also worked on an Omarchy cadence screensaver and a Deskflow control applet. Both remain private prototypes, not publicly installable releases.
+Omarchy bar applets and the Cadence screensaver. Private repos, not installable from a public URL. Evidence is from this machine on 15 October 2026. None of these are hexagon-kit demos.
+
+| Project | What it is | What was actually captured |
+|---|---|---|
+| Snippet pad | Left-edge pad: saved entries, a keypad, and a voice row that can hand text to the agent. | The open pad, including the keypad, voice row, and on-screen-keyboard row. Dictation was not started and the AI buttons were not pressed. |
+| Deskflow applet | Deskflow client controls: host, connect, auto-connect, and a remote-control grant file for a patched portal. | The open panel. The server address is covered. Allow remote control and auto-connect were off. Nothing was connected or toggled. |
+| System load | CPU percentage from `/proc/stat`, click focuses `btop`. | The bar glyph, plus four frames where the percentage changes. `btop` was not opened. |
+| Dictation | Voxtype start/stop on a bar mic. | The idle glyph only. Recording was not started. |
+| OSK toggle | Bar button for the on-screen keyboard. | An older gif in the private repo shows the keyboard. That frame also includes a permission dialog, so it is not a clean demo. |
+| Cadence | Rotating ASCII screensaver: text, image, exec, and notification slides, plus cached AI text. | `hero.gif` (2 October) is a braille smiley and a clock. `hero-rotation.gif` is five frames of a dotted SurfaceBook wordmark, not a full slide rotation. Private issues for the name, a clean install, and the README claims are still open. |
 
 [Browse all public repositories](https://github.com/matthewhand?tab=repositories).

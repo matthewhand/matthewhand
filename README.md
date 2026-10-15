@@ -25,9 +25,9 @@ Omarchy applets and Cadence. Private, not installable from a public URL. Not hex
 
 Still open, and the only Omarchy work that matters until it is done:
 
-- After sleep, the USB hub that holds the Surface keyboard and the Nano dongle can drop and stay gone. The power rule does not bring it back. A resume hook exists and is not installed yet, because installing it needs root.
-- Cadence's rotation gif is five frames of a wordmark, not a slide rotation. The name, a clean install, and that claim are still open issues.
+- After sleep, the USB hub that holds the Surface keyboard and the Nano dongle can drop and stay gone. The power rule does not bring it back. A resume hook exists and is not installed, because installing it needs a typed root password. Touch after suspend is a separate failure. The compositor touch plugin stays unloaded.
+- Cadence's rotation gif is five frames of a wordmark, not a slide rotation. The GitHub repository has not been renamed. A temporary-home install was tested and leaves `shell.json` alone. Idle stays on Omarchy's screensaver until the opt-in shim is installed. The screensaver was not launched.
 - Dictation was only captured idle. Deskflow was not connected, and the portal grant was not exercised. The OSK-toggle gif includes a permission dialog.
-- The AI-config bar button is unused. The archived `omarchy-osk` fork stays archived. The compositor touch plugin stays unloaded.
+- The AI-config bar button stays disabled. Its opener is covered by fixture tests. The archived `omarchy-osk` fork stays archived.
 
 [Browse all public repositories](https://github.com/matthewhand?tab=repositories).

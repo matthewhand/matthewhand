@@ -19,15 +19,19 @@ A curated mix of original projects and substantial work on upstream foundations,
 
 A synthetic preview is not a live camera or inference test, and an unmerged draft is not a release. These labels describe public evidence, not production certification.
 
-## Private desktop prototypes
+## Projects in development
 
-Omarchy applets and Cadence. Private, not installable from a public URL. Not hexagon-kit demos. Captures are from this machine on 15 October 2026. There is no automated test suite for these READMEs.
+These are broad areas of ongoing work, not claims that every prototype is released or production-ready. Individual projects vary in maturity; public repositories above provide examples where available.
 
-Still open, and the only Omarchy work that matters until it is done:
+| Area | Focus |
+|---|---|
+| **Cross-Platform Desktop Experiences** | Omarchy-inspired desktop workflows across Linux, macOS, Asahi Linux and Windows, including touch, pen and accessible interaction. |
+| **Edge AI & Hardware Acceleration** | Local multimodal AI on consumer hardware, including Snapdragon NPUs, NVIDIA Tegra and AMD GPUs; accelerator claims require measured evidence. |
+| **Embodied AI & Interactive Systems** | Robotics, speech, computer vision, Kinect and alternative controllers for physical and expressive interaction. |
+| **Smart Home & Intelligent Automation** | Home Assistant, presence sensing, local media workflows and AI-assisted home operations. |
+| **Parametric Design & Digital Fabrication** | Functional OpenSCAD design, practical 3D printing, mechanical parts and AI-assisted CAD workflows. |
+| **AI Infrastructure & Developer Tools** | Agent orchestration, MCP interoperability, API gateways, local model services and developer tooling. |
 
-- After sleep, the USB hub that holds the Surface keyboard and the Nano dongle can drop and stay gone. The power rule does not bring it back. A resume hook exists and is not installed, because installing it needs a typed root password. Touch after suspend is a separate failure. The compositor touch plugin stays unloaded.
-- Cadence's rotation gif is five frames of a wordmark, not a slide rotation. The GitHub repository has not been renamed. A temporary-home install was tested and leaves `shell.json` alone. Idle stays on Omarchy's screensaver until the opt-in shim is installed. The screensaver was not launched.
-- Dictation was only captured idle. Deskflow was not connected, and the portal grant was not exercised. The OSK-toggle gif includes a permission dialog.
-- The AI-config bar button stays disabled. Its opener is covered by fixture tests. The archived `omarchy-osk` fork stays archived.
+Development work may be private or experimental. A theme here is not a statement of public availability or hardware certification.
 
 [Browse all public repositories](https://github.com/matthewhand?tab=repositories).

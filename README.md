@@ -4,20 +4,15 @@ I build local-first AI tools, agent workflows and useful apps, spanning speech, 
 
 My projects and integrations are listed first, followed by public forks and adaptations.
 
-## Embodied AI & Interactive Systems
-
-| Project | Description |
-|---|---|
-| **[open-wiimote](https://github.com/matthewhand/open-wiimote)** | <img src="https://raw.githubusercontent.com/matthewhand/open-wiimote/main/docs/images/open-wiimote.svg" alt="OpenWiimote: bring your Wii Remote back into play" width="400" height="100"><br><br>Wii Remote buttons and tilt as a virtual gamepad, with desktop and browser interfaces. Windows/macOS remain targets; macOS virtual-gamepad output is not implemented. **Linux x64 prerelease** · [ISC](https://github.com/matthewhand/open-wiimote/blob/main/LICENSE) · [Downloads](https://github.com/matthewhand/open-wiimote/releases) · [Roadmap](https://github.com/matthewhand/open-wiimote#roadmap). |
-
 ## Desktop Software
 
 | Project | Description |
 |---|---|
+| **[open-wiimote](https://github.com/matthewhand/open-wiimote)** | <img src="https://raw.githubusercontent.com/matthewhand/open-wiimote/main/docs/images/open-wiimote.svg" alt="OpenWiimote: bring your Wii Remote back into play" width="400" height="100"><br><br>Wii Remote buttons and tilt as a virtual gamepad, with desktop and browser interfaces. Windows/macOS remain targets; macOS virtual-gamepad output is not implemented. **Linux x64 prerelease** · [ISC](https://github.com/matthewhand/open-wiimote/blob/main/LICENSE) · [Downloads](https://github.com/matthewhand/open-wiimote/releases) · [Roadmap](https://github.com/matthewhand/open-wiimote#roadmap). |
 | **[waltop-osx](https://github.com/matthewhand/waltop-osx)** | Userspace pen-pressure support for the WALTOP Slim Tablet 12.1 on macOS. **Hardware integration** · [MIT](https://github.com/matthewhand/waltop-osx/blob/main/LICENSE). |
 | **[operating-swarm](https://github.com/matthewhand/operating-swarm)** | Agent workflows across model APIs, agent CLIs and remote harnesses, with an API, CLI and WebUI. **Desktop app not yet built.** **Experimental alpha** · [MIT](https://github.com/matthewhand/operating-swarm/blob/main/LICENSE). |
 
-## Smart Home & Intelligent Automation
+## Self-hosted Web Apps
 
 | Project | Description |
 |---|---|
@@ -75,7 +70,7 @@ Public forks and adaptations, with upstream attribution and verified PR status. 
 | [openwebui-docs](https://github.com/matthewhand/openwebui-docs) | AI Infrastructure & Developer Tools | Open WebUI documentation. Fork of [open-webui/docs](https://github.com/open-webui/docs). | **Merged upstream:** [257](https://github.com/open-webui/docs/pull/257), [258](https://github.com/open-webui/docs/pull/258), [260](https://github.com/open-webui/docs/pull/260), [261](https://github.com/open-webui/docs/pull/261), [266](https://github.com/open-webui/docs/pull/266), [267](https://github.com/open-webui/docs/pull/267), [274](https://github.com/open-webui/docs/pull/274)<br>**Closed unmerged:** [256](https://github.com/open-webui/docs/pull/256), [294](https://github.com/open-webui/docs/pull/294) |
 | [rakazo](https://github.com/matthewhand/rakazo) | AI Infrastructure & Developer Tools | Multi-agent assistant. Fork of [elie222/rakazo](https://github.com/elie222/rakazo). | [Fork differs](https://github.com/elie222/rakazo/compare/main...matthewhand:main); no upstream PR found. |
 | [self-hosted-ai-starter-kit](https://github.com/matthewhand/self-hosted-ai-starter-kit) | AI Infrastructure & Developer Tools | Docker-based local AI starter stack. Fork of [n8n-io/self-hosted-ai-starter-kit](https://github.com/n8n-io/self-hosted-ai-starter-kit). | [Fork differs](https://github.com/n8n-io/self-hosted-ai-starter-kit/compare/main...matthewhand:main); no upstream PR found. |
-| [server-wp-mcp](https://github.com/matthewhand/server-wp-mcp) | AI Infrastructure & Developer Tools | WordPress MCP server; configuration, packaging and test additions. Fork of [emzimmer/server-wp-mcp](https://github.com/emzimmer/server-wp-mcp). | **Pending upstream:** [5](https://github.com/emzimmer/server-wp-mcp/pull/5)<br>**Closed unmerged:** [4](https://github.com/emzimmer/server-wp-mcp/pull/4) |
+| [server-wp-mcp](https://github.com/matthewhand/server-wp-mcp) | AI Infrastructure & Developer Tools | WordPress MCP server; configuration, packaging and test additions. Fork of [emzimmer/server-wp-mcp](https://github.com/emzimmer/server-wp-mcp). For WordPress posts, see the [mcp-openapi-proxy example](https://github.com/matthewhand/mcp-openapi-proxy/blob/main/examples/wordpress-claude_desktop_config.json). | **Pending upstream:** [5](https://github.com/emzimmer/server-wp-mcp/pull/5)<br>**Closed unmerged:** [4](https://github.com/emzimmer/server-wp-mcp/pull/4) |
 | [stripe-checkout-next-js-demo](https://github.com/matthewhand/stripe-checkout-next-js-demo) | AI Infrastructure & Developer Tools | Next.js/Stripe checkout example. Fork of [projectashik/stripe-checkout-next-js-demo](https://github.com/projectashik/stripe-checkout-next-js-demo). | [Fork differs](https://github.com/projectashik/stripe-checkout-next-js-demo/compare/main...matthewhand:main); no upstream PR found. |
 | [trueforge](https://github.com/matthewhand/trueforge) | AI Infrastructure & Developer Tools | Agent harness. Fork of [truefoundry/trueforge](https://github.com/truefoundry/trueforge). | [Fork differs](https://github.com/truefoundry/trueforge/compare/main...matthewhand:main); no upstream PR found. |
 | [vectara-ingest](https://github.com/matthewhand/vectara-ingest) | AI Infrastructure & Developer Tools | Crawlers and ingestion pipelines. Fork of [vectara/vectara-ingest](https://github.com/vectara/vectara-ingest). | [Fork differs](https://github.com/vectara/vectara-ingest/compare/main...matthewhand:main); no upstream PR found. |

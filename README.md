@@ -15,6 +15,7 @@ My projects and integrations are listed first, followed by public forks and adap
 | Project | Description |
 |---|---|
 | **[waltop-osx](https://github.com/matthewhand/waltop-osx)** | Userspace pen-pressure support for the WALTOP Slim Tablet 12.1 on macOS. **Hardware integration** · [MIT](https://github.com/matthewhand/waltop-osx/blob/main/LICENSE). |
+| **[operating-swarm](https://github.com/matthewhand/operating-swarm)** | Agent workflows across model APIs, agent CLIs and remote harnesses, with an API, CLI and WebUI. **Desktop app not yet built.** Evolved from [OpenAI Swarm](https://github.com/openai/swarm). **Experimental alpha** · [MIT](https://github.com/matthewhand/operating-swarm/blob/main/LICENSE). |
 
 ## Smart Home & Intelligent Automation
 
@@ -29,7 +30,6 @@ My projects and integrations are listed first, followed by public forks and adap
 | **[llama-stack-bridge](https://github.com/matthewhand/llama-stack-bridge)** | Nginx/njs adapter for Llama Stack model lists and non-streaming chat. **Legacy prototype** · [MIT](https://github.com/matthewhand/llama-stack-bridge/blob/main/LICENSE). |
 | **[mcp-flowise](https://github.com/matthewhand/mcp-flowise)** | Discover and run Flowise chatflows from MCP clients, with authentication and flow filtering. **Experimental** · [MIT](https://github.com/matthewhand/mcp-flowise/blob/main/LICENSE). |
 | **[mcp-openapi-proxy](https://github.com/matthewhand/mcp-openapi-proxy)** | OpenAPI-described REST APIs as MCP tools over Streamable HTTP or stdio. **Versioned tool** · [MIT](https://github.com/matthewhand/mcp-openapi-proxy/blob/main/LICENSE) · [Docs](https://github.com/matthewhand/mcp-openapi-proxy#readme) · [Releases](https://github.com/matthewhand/mcp-openapi-proxy/releases). |
-| **[operating-swarm](https://github.com/matthewhand/operating-swarm)** | Agent workflows across model APIs, agent CLIs and remote harnesses, with a shared API, CLI and WebUI. Evolved from [OpenAI Swarm](https://github.com/openai/swarm). **Experimental alpha** · [MIT](https://github.com/matthewhand/operating-swarm/blob/main/LICENSE). |
 | **[openai-f5-tts](https://github.com/matthewhand/openai-f5-tts)** | Independent [F5-TTS](https://github.com/SWivid/F5-TTS) API wrapper for self-hosted speech, selectable voices, custom checkpoints, sentence-level PCM streaming and estimated timestamps. **Community beta** · [MIT](https://github.com/matthewhand/openai-f5-tts/blob/main/LICENSE) wrapper; pretrained model weights are separately CC-BY-NC. Not affiliated with OpenAI or F5-TTS authors. |
 | **[openai-kokoro-tts](https://github.com/matthewhand/openai-kokoro-tts)** | Independent, CPU-first OpenAI-compatible speech API around [Kokoro](https://huggingface.co/hexgrad/Kokoro-82M) and [kokoro-onnx](https://github.com/thewh1teagle/kokoro-onnx). **Community beta** · [MIT](https://github.com/matthewhand/openai-kokoro-tts/blob/main/LICENSE) wrapper; Kokoro-82M weights are Apache-2.0. Not affiliated with OpenAI or the Kokoro/kokoro-onnx authors. |
 

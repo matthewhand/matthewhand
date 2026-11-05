@@ -2,22 +2,15 @@
 
 I build local-first AI tools, agent workflows and useful apps, spanning speech, vision, automation and hardware integration.
 
-My projects and integrations come first in each category. Forks are labelled with their upstream projects.
+My projects and integrations are listed first, followed by public forks and adaptations.
 
 ## Embodied AI & Interactive Systems
 
 | Project | Description |
 |---|---|
-| **[open-wiimote](https://github.com/matthewhand/open-wiimote)** | Wii Remote buttons and tilt as a virtual gamepad, with desktop and browser interfaces. **Linux x64 prerelease** · [ISC](https://github.com/matthewhand/open-wiimote/blob/main/LICENSE) · [Downloads](https://github.com/matthewhand/open-wiimote/releases) · [Roadmap](https://github.com/matthewhand/open-wiimote#roadmap).<br><br><img src="https://raw.githubusercontent.com/matthewhand/open-wiimote/main/docs/images/open-wiimote.svg" alt="OpenWiimote: bring your Wii Remote back into play" width="400" height="100"> |
+| **[open-wiimote](https://github.com/matthewhand/open-wiimote)** | <img src="https://raw.githubusercontent.com/matthewhand/open-wiimote/main/docs/images/open-wiimote.svg" alt="OpenWiimote: bring your Wii Remote back into play" width="400" height="100"><br><br>Wii Remote buttons and tilt as a virtual gamepad, with desktop and browser interfaces. **Linux x64 prerelease** · [ISC](https://github.com/matthewhand/open-wiimote/blob/main/LICENSE) · [Downloads](https://github.com/matthewhand/open-wiimote/releases) · [Roadmap](https://github.com/matthewhand/open-wiimote#roadmap). |
 | **[openai-f5-tts](https://github.com/matthewhand/openai-f5-tts)** | Independent [F5-TTS](https://github.com/SWivid/F5-TTS) API wrapper for self-hosted speech, selectable voices, custom checkpoints, sentence-level PCM streaming and estimated timestamps. **Community beta** · [MIT](https://github.com/matthewhand/openai-f5-tts/blob/main/LICENSE) wrapper; pretrained model weights are separately CC-BY-NC. |
 | **[openai-kokoro-tts](https://github.com/matthewhand/openai-kokoro-tts)** | Independent, CPU-first OpenAI-compatible speech API around [Kokoro](https://huggingface.co/hexgrad/Kokoro-82M) and [kokoro-onnx](https://github.com/thewh1teagle/kokoro-onnx). **Community beta** · [MIT](https://github.com/matthewhand/openai-kokoro-tts/blob/main/LICENSE) wrapper; Kokoro-82M weights are Apache-2.0. |
-| [audio.cpp-hub](https://github.com/matthewhand/audio.cpp-hub) | Web management for audio.cpp instances and speech/audio tasks. Fork of [IIIIIllllIIIIIlllll/audio.cpp-hub](https://github.com/IIIIIllllIIIIIlllll/audio.cpp-hub). |
-| [GroqCasters](https://github.com/matthewhand/GroqCasters) | AI podcast generation, with F5-TTS added alongside Bark. Fork of [jgravelle/GroqCasters](https://github.com/jgravelle/GroqCasters). |
-| [labs-Voice-Agent](https://github.com/matthewhand/labs-Voice-Agent) | Voice-agent framework. Fork of [NVIDIA-NeMo/labs-Voice-Agent](https://github.com/NVIDIA-NeMo/labs-Voice-Agent). |
-| [talkbot](https://github.com/matthewhand/talkbot) | Discord speech and translation bot. Fork of [nullabork/talkbot](https://github.com/nullabork/talkbot). |
-| [ugv_rpi](https://github.com/matthewhand/ugv_rpi) | Waveshare Raspberry Pi UGV software. Fork of [waveshareteam/ugv_rpi](https://github.com/waveshareteam/ugv_rpi). |
-| [VoiceMem](https://github.com/matthewhand/VoiceMem) | Streaming memory for voice agents. Fork of [xzf-thu/VoiceMem](https://github.com/xzf-thu/VoiceMem). |
-| [webxr-samples](https://github.com/matthewhand/webxr-samples) | WebXR browser examples. Fork of [immersive-web/webxr-samples](https://github.com/immersive-web/webxr-samples). |
 
 OpenWiimote targets Windows and macOS too; macOS virtual-gamepad output is not implemented. The speech wrappers are independent of OpenAI and the upstream model authors.
 
@@ -26,36 +19,12 @@ OpenWiimote targets Windows and macOS too; macOS virtual-gamepad output is not i
 | Project | Description |
 |---|---|
 | **[waltop-osx](https://github.com/matthewhand/waltop-osx)** | Userspace pen-pressure support for the WALTOP Slim Tablet 12.1 on macOS. **Hardware integration** · [MIT](https://github.com/matthewhand/waltop-osx/blob/main/LICENSE). |
-| [omarchy-chronos](https://github.com/matthewhand/omarchy-chronos) | Omarchy clock and calendar. Fork of [nixfred/omarchy-chronos](https://github.com/nixfred/omarchy-chronos). |
-| [omarchy-osk](https://github.com/matthewhand/omarchy-osk) | Omarchy on-screen keyboard. Fork of [ekollof/omarchy-osk](https://github.com/ekollof/omarchy-osk). **Archived.** |
-| [OpenMausBot](https://github.com/matthewhand/OpenMausBot) | Desktop coordination for Claude/Codex agents. Fork of [milind-soni/OpenMausBot](https://github.com/milind-soni/OpenMausBot). |
-| [persona](https://github.com/matthewhand/persona) | Desktop avatar reacting to voice output from other apps. Fork of [xikhar/persona](https://github.com/xikhar/persona). |
-| [rift](https://github.com/matthewhand/rift) | Omarchy workspace app placement. Fork of [nixfred/rift](https://github.com/nixfred/rift). |
-
-## Edge AI & Hardware Acceleration
-
-| Project | Description |
-|---|---|
-| [amd-strix-halo-image-video-distrobox](https://github.com/matthewhand/amd-strix-halo-image-video-distrobox) | ROCm image/video containers for AMD Strix Halo. Fork of [kyuz0/amd-strix-halo-image-video-toolboxes](https://github.com/kyuz0/amd-strix-halo-image-video-toolboxes). **Archived.** |
-| [chatterbox](https://github.com/matthewhand/chatterbox) | AMD adaptation of the Chatterbox Pinokio launcher. Fork of [Deathdadev/chatterbox](https://github.com/Deathdadev/chatterbox). |
-| [ChatterCraft-Pinokio](https://github.com/matthewhand/ChatterCraft-Pinokio) | AMD launcher adaptation for storytelling and voice cloning. Fork of [TheAwaken1/ChatterCraft-Pinokio](https://github.com/TheAwaken1/ChatterCraft-Pinokio). |
-| [Chattered](https://github.com/matthewhand/Chattered) | AMD launcher adaptation for a Chatterbox Gradio interface. Fork of [6Morpheus6/Chattered](https://github.com/6Morpheus6/Chattered). |
-| [MagicQuill](https://github.com/matthewhand/MagicQuill) | AMD launcher adaptation for interactive image editing. Fork of [pinokiofactory/MagicQuill](https://github.com/pinokiofactory/MagicQuill). |
-| [openaudio](https://github.com/matthewhand/openaudio) | AMD launcher adaptation for Fish Speech/OpenAudio. Fork of [pinokiofactory/openaudio](https://github.com/pinokiofactory/openaudio). |
-| [Orpheus-TTS-FastAPI](https://github.com/matthewhand/Orpheus-TTS-FastAPI) | AMD launcher adaptation for an Orpheus speech API. Fork of [pinokiofactory/Orpheus-TTS-FastAPI](https://github.com/pinokiofactory/Orpheus-TTS-FastAPI). |
-| [Ultimate-TTS-Studio](https://github.com/matthewhand/Ultimate-TTS-Studio) | AMD launcher adaptation for multi-engine speech. Fork of [pinokiofactory/Ultimate-TTS-Studio](https://github.com/pinokiofactory/Ultimate-TTS-Studio). |
-| [vibevoice-realtime](https://github.com/matthewhand/vibevoice-realtime) | AMD launcher adaptation for VibeVoice realtime speech. Fork of [pinokiofactory/vibevoice-realtime](https://github.com/pinokiofactory/vibevoice-realtime). |
-
-AMD-focused container and launcher adaptations; application and accelerator support varies by repository.
 
 ## Smart Home & Intelligent Automation
 
 | Project | Description |
 |---|---|
 | **[funes-vision](https://github.com/matthewhand/funes-vision)** | Local watched-folder browser for JPEG snapshots and grouped visits, with a demo gallery. **Public alpha** · [MIT](https://github.com/matthewhand/funes-vision/blob/main/LICENSE). |
-| [holman-linux-python](https://github.com/matthewhand/holman-linux-python) | Holman irrigation SDK for Python/Linux. Fork of [scottmckenzie/holman-linux-python](https://github.com/scottmckenzie/holman-linux-python). |
-| [htpc-download-box](https://github.com/matthewhand/htpc-download-box) | Docker media and Plex stack. Fork of [sebgl/htpc-download-box](https://github.com/sebgl/htpc-download-box). |
-| [InkMemories](https://github.com/matthewhand/InkMemories) | Connected eInk photo frame. Fork of [tymzd/InkMemories](https://github.com/tymzd/InkMemories). |
 
 ## AI Infrastructure & Developer Tools
 
@@ -67,22 +36,55 @@ AMD-focused container and launcher adaptations; application and accelerator supp
 | **[operating-swarm](https://github.com/matthewhand/operating-swarm)** | Agent workflows across model APIs, agent CLIs and remote harnesses, with a shared API, CLI and WebUI. Evolved from [OpenAI Swarm](https://github.com/openai/swarm). **Experimental alpha** · [MIT](https://github.com/matthewhand/operating-swarm/blob/main/LICENSE). |
 | [open-webui-integrations](https://github.com/matthewhand/open-webui-integrations) | Open WebUI functions for routing, Flowise, reasoning, consensus, AutoGen and image generation. Integration collection; attribution in the source headers. |
 | [perplexica-aws](https://github.com/matthewhand/perplexica-aws) | AWS deployment scripts and configuration for a Perplexica-based search system. |
-| [accept-a-payment](https://github.com/matthewhand/accept-a-payment) | Stripe payment examples. Fork of [stripe-samples/accept-a-payment](https://github.com/stripe-samples/accept-a-payment). |
-| [ansible_role_microk8s](https://github.com/matthewhand/ansible_role_microk8s) | MicroK8s deployment on Ubuntu. Fork of [istvano/ansible_role_microk8s](https://github.com/istvano/ansible_role_microk8s). |
-| [docker-compose-ui](https://github.com/matthewhand/docker-compose-ui) | Docker Compose management interface. Fork of [francescou/docker-compose-ui](https://github.com/francescou/docker-compose-ui). |
-| [herdr](https://github.com/matthewhand/herdr) | Coding-agent runtime. Fork of [herdrdev/herdr](https://github.com/herdrdev/herdr). |
-| [omniplex](https://github.com/matthewhand/omniplex) | AI search application. Fork of [Omniplex-ai/omniplex](https://github.com/Omniplex-ai/omniplex). |
-| [open-webui](https://github.com/matthewhand/open-webui) | Local and hosted LLM interface. Fork of [open-webui/open-webui](https://github.com/open-webui/open-webui). |
-| [openmuse-1](https://github.com/matthewhand/openmuse-1) | Personal agent with browser, terminal and files. Fork of [CopilotKit/openmuse](https://github.com/CopilotKit/openmuse). |
-| [openwebui-docs](https://github.com/matthewhand/openwebui-docs) | Open WebUI documentation. Fork of [open-webui/docs](https://github.com/open-webui/docs). |
-| [rakazo](https://github.com/matthewhand/rakazo) | Multi-agent assistant. Fork of [elie222/rakazo](https://github.com/elie222/rakazo). |
-| [self-hosted-ai-starter-kit](https://github.com/matthewhand/self-hosted-ai-starter-kit) | Docker-based local AI starter stack. Fork of [n8n-io/self-hosted-ai-starter-kit](https://github.com/n8n-io/self-hosted-ai-starter-kit). |
-| [server-wp-mcp](https://github.com/matthewhand/server-wp-mcp) | WordPress MCP server; configuration, packaging and test additions. Fork of [emzimmer/server-wp-mcp](https://github.com/emzimmer/server-wp-mcp). |
-| [stripe-checkout-next-js-demo](https://github.com/matthewhand/stripe-checkout-next-js-demo) | Next.js/Stripe checkout example. Fork of [projectashik/stripe-checkout-next-js-demo](https://github.com/projectashik/stripe-checkout-next-js-demo). |
-| [trueforge](https://github.com/matthewhand/trueforge) | Agent harness. Fork of [truefoundry/trueforge](https://github.com/truefoundry/trueforge). |
-| [vectara-ingest](https://github.com/matthewhand/vectara-ingest) | Crawlers and ingestion pipelines. Fork of [vectara/vectara-ingest](https://github.com/vectara/vectara-ingest). |
 
 **Supporting repositories:** [matthewhand](https://github.com/matthewhand/matthewhand) (this profile) · [matthewhand.github.io](https://github.com/matthewhand/matthewhand.github.io) (personal website source).
+
+## Fork contributions
+
+Public forks and adaptations, with upstream attribution and verified PR status. Forking a project does not itself establish a contribution.
+
+| Project | Category | Description | Contribution status |
+|---|---|---|---|
+| [audio.cpp-hub](https://github.com/matthewhand/audio.cpp-hub) | Embodied AI & Interactive Systems | Web management for audio.cpp instances and speech/audio tasks. Fork of [IIIIIllllIIIIIlllll/audio.cpp-hub](https://github.com/IIIIIllllIIIIIlllll/audio.cpp-hub). | **Closed unmerged:** [3](https://github.com/IIIIIllllIIIIIlllll/audio.cpp-hub/pull/3) |
+| [GroqCasters](https://github.com/matthewhand/GroqCasters) | Embodied AI & Interactive Systems | AI podcast generation, with F5-TTS added alongside Bark. Fork of [jgravelle/GroqCasters](https://github.com/jgravelle/GroqCasters). | [Fork differs](https://github.com/jgravelle/GroqCasters/compare/main...matthewhand:main); no upstream PR found. |
+| [labs-Voice-Agent](https://github.com/matthewhand/labs-Voice-Agent) | Embodied AI & Interactive Systems | Voice-agent framework. Fork of [NVIDIA-NeMo/labs-Voice-Agent](https://github.com/NVIDIA-NeMo/labs-Voice-Agent). | [Fork differs](https://github.com/NVIDIA-NeMo/labs-Voice-Agent/compare/main...matthewhand:main); no upstream PR found. |
+| [talkbot](https://github.com/matthewhand/talkbot) | Embodied AI & Interactive Systems | Discord speech and translation bot. Fork of [nullabork/talkbot](https://github.com/nullabork/talkbot). | [Fork differs](https://github.com/nullabork/talkbot/compare/v2...matthewhand:master); no upstream PR found. |
+| [ugv_rpi](https://github.com/matthewhand/ugv_rpi) | Embodied AI & Interactive Systems | Waveshare Raspberry Pi UGV software. Fork of [waveshareteam/ugv_rpi](https://github.com/waveshareteam/ugv_rpi). | [Fork differs](https://github.com/waveshareteam/ugv_rpi/compare/main...matthewhand:main); no upstream PR found. |
+| [VoiceMem](https://github.com/matthewhand/VoiceMem) | Embodied AI & Interactive Systems | Streaming memory for voice agents. Fork of [xzf-thu/VoiceMem](https://github.com/xzf-thu/VoiceMem). | Fork; contribution status unverified. |
+| [webxr-samples](https://github.com/matthewhand/webxr-samples) | Embodied AI & Interactive Systems | WebXR browser examples. Fork of [immersive-web/webxr-samples](https://github.com/immersive-web/webxr-samples). | [Fork differs](https://github.com/immersive-web/webxr-samples/compare/main...matthewhand:main); no upstream PR found. |
+| [omarchy-chronos](https://github.com/matthewhand/omarchy-chronos) | Cross-Platform Desktop Experiences | Omarchy clock and calendar. Fork of [nixfred/omarchy-chronos](https://github.com/nixfred/omarchy-chronos). | Fork; contribution status unverified. |
+| [omarchy-osk](https://github.com/matthewhand/omarchy-osk) | Cross-Platform Desktop Experiences | Omarchy on-screen keyboard. Fork of [ekollof/omarchy-osk](https://github.com/ekollof/omarchy-osk). **Archived.** | [Fork differs](https://github.com/ekollof/omarchy-osk/compare/master...matthewhand:master); no upstream PR found. |
+| [OpenMausBot](https://github.com/matthewhand/OpenMausBot) | Cross-Platform Desktop Experiences | Desktop coordination for Claude/Codex agents. Fork of [milind-soni/OpenMausBot](https://github.com/milind-soni/OpenMausBot). | [Fork differs](https://github.com/milind-soni/OpenMausBot/compare/main...matthewhand:main); no upstream PR found. |
+| [persona](https://github.com/matthewhand/persona) | Cross-Platform Desktop Experiences | Desktop avatar reacting to voice output from other apps. Fork of [xikhar/persona](https://github.com/xikhar/persona). | Fork; contribution status unverified. |
+| [rift](https://github.com/matthewhand/rift) | Cross-Platform Desktop Experiences | Omarchy workspace app placement. Fork of [nixfred/rift](https://github.com/nixfred/rift). | [Fork differs](https://github.com/nixfred/rift/compare/main...matthewhand:main); no upstream PR found. |
+| [amd-strix-halo-image-video-distrobox](https://github.com/matthewhand/amd-strix-halo-image-video-distrobox) | Edge AI & Hardware Acceleration | ROCm image/video containers for AMD Strix Halo. Fork of [kyuz0/amd-strix-halo-image-video-toolboxes](https://github.com/kyuz0/amd-strix-halo-image-video-toolboxes). **Archived.** | **Closed unmerged:** [9](https://github.com/kyuz0/amd-strix-halo-image-video-toolboxes/pull/9), [10](https://github.com/kyuz0/amd-strix-halo-image-video-toolboxes/pull/10), [11](https://github.com/kyuz0/amd-strix-halo-image-video-toolboxes/pull/11), [12](https://github.com/kyuz0/amd-strix-halo-image-video-toolboxes/pull/12), [16](https://github.com/kyuz0/amd-strix-halo-image-video-toolboxes/pull/16) |
+| [chatterbox](https://github.com/matthewhand/chatterbox) | Edge AI & Hardware Acceleration | AMD adaptation of the Chatterbox Pinokio launcher. Fork of [Deathdadev/chatterbox](https://github.com/Deathdadev/chatterbox). | [Fork differs](https://github.com/Deathdadev/chatterbox/compare/main...matthewhand:main); no upstream PR found. |
+| [ChatterCraft-Pinokio](https://github.com/matthewhand/ChatterCraft-Pinokio) | Edge AI & Hardware Acceleration | AMD launcher adaptation for storytelling and voice cloning. Fork of [TheAwaken1/ChatterCraft-Pinokio](https://github.com/TheAwaken1/ChatterCraft-Pinokio). | [Fork differs](https://github.com/TheAwaken1/ChatterCraft-Pinokio/compare/main...matthewhand:main); no upstream PR found. |
+| [Chattered](https://github.com/matthewhand/Chattered) | Edge AI & Hardware Acceleration | AMD launcher adaptation for a Chatterbox Gradio interface. Fork of [6Morpheus6/Chattered](https://github.com/6Morpheus6/Chattered). | [Fork differs](https://github.com/6Morpheus6/Chattered/compare/main...matthewhand:main); no upstream PR found. |
+| [MagicQuill](https://github.com/matthewhand/MagicQuill) | Edge AI & Hardware Acceleration | AMD launcher adaptation for interactive image editing. Fork of [pinokiofactory/MagicQuill](https://github.com/pinokiofactory/MagicQuill). | [Fork differs](https://github.com/pinokiofactory/MagicQuill/compare/main...matthewhand:main); no upstream PR found. |
+| [openaudio](https://github.com/matthewhand/openaudio) | Edge AI & Hardware Acceleration | AMD launcher adaptation for Fish Speech/OpenAudio. Fork of [pinokiofactory/openaudio](https://github.com/pinokiofactory/openaudio). | [Fork differs](https://github.com/pinokiofactory/openaudio/compare/main...matthewhand:main); no upstream PR found. |
+| [Orpheus-TTS-FastAPI](https://github.com/matthewhand/Orpheus-TTS-FastAPI) | Edge AI & Hardware Acceleration | AMD launcher adaptation for an Orpheus speech API. Fork of [pinokiofactory/Orpheus-TTS-FastAPI](https://github.com/pinokiofactory/Orpheus-TTS-FastAPI). | [Fork differs](https://github.com/pinokiofactory/Orpheus-TTS-FastAPI/compare/main...matthewhand:main); no upstream PR found. |
+| [Ultimate-TTS-Studio](https://github.com/matthewhand/Ultimate-TTS-Studio) | Edge AI & Hardware Acceleration | AMD launcher adaptation for multi-engine speech. Fork of [pinokiofactory/Ultimate-TTS-Studio](https://github.com/pinokiofactory/Ultimate-TTS-Studio). | [Fork differs](https://github.com/pinokiofactory/Ultimate-TTS-Studio/compare/main...matthewhand:main); no upstream PR found. |
+| [vibevoice-realtime](https://github.com/matthewhand/vibevoice-realtime) | Edge AI & Hardware Acceleration | AMD launcher adaptation for VibeVoice realtime speech. Fork of [pinokiofactory/vibevoice-realtime](https://github.com/pinokiofactory/vibevoice-realtime). | [Fork differs](https://github.com/pinokiofactory/vibevoice-realtime/compare/main...matthewhand:main); no upstream PR found. |
+| [holman-linux-python](https://github.com/matthewhand/holman-linux-python) | Smart Home & Intelligent Automation | Holman irrigation SDK for Python/Linux. Fork of [scottmckenzie/holman-linux-python](https://github.com/scottmckenzie/holman-linux-python). | **Pending upstream:** [9](https://github.com/scottmckenzie/holman-linux-python/pull/9) |
+| [htpc-download-box](https://github.com/matthewhand/htpc-download-box) | Smart Home & Intelligent Automation | Docker media and Plex stack. Fork of [sebgl/htpc-download-box](https://github.com/sebgl/htpc-download-box). | [Fork differs](https://github.com/sebgl/htpc-download-box/compare/master...matthewhand:master); no upstream PR found. |
+| [InkMemories](https://github.com/matthewhand/InkMemories) | Smart Home & Intelligent Automation | Connected eInk photo frame. Fork of [tymzd/InkMemories](https://github.com/tymzd/InkMemories). | [Fork differs](https://github.com/tymzd/InkMemories/compare/master...matthewhand:master); no upstream PR found. |
+| [accept-a-payment](https://github.com/matthewhand/accept-a-payment) | AI Infrastructure & Developer Tools | Stripe payment examples. Fork of [stripe-samples/accept-a-payment](https://github.com/stripe-samples/accept-a-payment). | Fork; contribution status unverified. |
+| [ansible_role_microk8s](https://github.com/matthewhand/ansible_role_microk8s) | AI Infrastructure & Developer Tools | MicroK8s deployment on Ubuntu. Fork of [istvano/ansible_role_microk8s](https://github.com/istvano/ansible_role_microk8s). | Fork; contribution status unverified. |
+| [docker-compose-ui](https://github.com/matthewhand/docker-compose-ui) | AI Infrastructure & Developer Tools | Docker Compose management interface. Fork of [francescou/docker-compose-ui](https://github.com/francescou/docker-compose-ui). | Fork; contribution status unverified. |
+| [herdr](https://github.com/matthewhand/herdr) | AI Infrastructure & Developer Tools | Coding-agent runtime. Fork of [herdrdev/herdr](https://github.com/herdrdev/herdr). | [Fork differs](https://github.com/herdrdev/herdr/compare/master...matthewhand:master); no upstream PR found. |
+| [omniplex](https://github.com/matthewhand/omniplex) | AI Infrastructure & Developer Tools | AI search application. Fork of [Omniplex-ai/omniplex](https://github.com/Omniplex-ai/omniplex). | [Fork differs](https://github.com/Omniplex-ai/omniplex/compare/main...matthewhand:main); no upstream PR found. |
+| [open-webui](https://github.com/matthewhand/open-webui) | AI Infrastructure & Developer Tools | Local and hosted LLM interface. Fork of [open-webui/open-webui](https://github.com/open-webui/open-webui). | **Merged upstream:** [6954](https://github.com/open-webui/open-webui/pull/6954) |
+| [openmuse-1](https://github.com/matthewhand/openmuse-1) | AI Infrastructure & Developer Tools | Personal agent with browser, terminal and files. Fork of [CopilotKit/openmuse](https://github.com/CopilotKit/openmuse). | **Pending upstream:** [94](https://github.com/CopilotKit/openmuse/pull/94)<br>**Closed unmerged:** [93](https://github.com/CopilotKit/openmuse/pull/93) |
+| [openwebui-docs](https://github.com/matthewhand/openwebui-docs) | AI Infrastructure & Developer Tools | Open WebUI documentation. Fork of [open-webui/docs](https://github.com/open-webui/docs). | **Merged upstream:** [257](https://github.com/open-webui/docs/pull/257), [258](https://github.com/open-webui/docs/pull/258), [260](https://github.com/open-webui/docs/pull/260), [261](https://github.com/open-webui/docs/pull/261), [266](https://github.com/open-webui/docs/pull/266), [267](https://github.com/open-webui/docs/pull/267), [274](https://github.com/open-webui/docs/pull/274)<br>**Closed unmerged:** [256](https://github.com/open-webui/docs/pull/256), [294](https://github.com/open-webui/docs/pull/294) |
+| [rakazo](https://github.com/matthewhand/rakazo) | AI Infrastructure & Developer Tools | Multi-agent assistant. Fork of [elie222/rakazo](https://github.com/elie222/rakazo). | [Fork differs](https://github.com/elie222/rakazo/compare/main...matthewhand:main); no upstream PR found. |
+| [self-hosted-ai-starter-kit](https://github.com/matthewhand/self-hosted-ai-starter-kit) | AI Infrastructure & Developer Tools | Docker-based local AI starter stack. Fork of [n8n-io/self-hosted-ai-starter-kit](https://github.com/n8n-io/self-hosted-ai-starter-kit). | [Fork differs](https://github.com/n8n-io/self-hosted-ai-starter-kit/compare/main...matthewhand:main); no upstream PR found. |
+| [server-wp-mcp](https://github.com/matthewhand/server-wp-mcp) | AI Infrastructure & Developer Tools | WordPress MCP server; configuration, packaging and test additions. Fork of [emzimmer/server-wp-mcp](https://github.com/emzimmer/server-wp-mcp). | **Pending upstream:** [5](https://github.com/emzimmer/server-wp-mcp/pull/5)<br>**Closed unmerged:** [4](https://github.com/emzimmer/server-wp-mcp/pull/4) |
+| [stripe-checkout-next-js-demo](https://github.com/matthewhand/stripe-checkout-next-js-demo) | AI Infrastructure & Developer Tools | Next.js/Stripe checkout example. Fork of [projectashik/stripe-checkout-next-js-demo](https://github.com/projectashik/stripe-checkout-next-js-demo). | [Fork differs](https://github.com/projectashik/stripe-checkout-next-js-demo/compare/main...matthewhand:main); no upstream PR found. |
+| [trueforge](https://github.com/matthewhand/trueforge) | AI Infrastructure & Developer Tools | Agent harness. Fork of [truefoundry/trueforge](https://github.com/truefoundry/trueforge). | [Fork differs](https://github.com/truefoundry/trueforge/compare/main...matthewhand:main); no upstream PR found. |
+| [vectara-ingest](https://github.com/matthewhand/vectara-ingest) | AI Infrastructure & Developer Tools | Crawlers and ingestion pipelines. Fork of [vectara/vectara-ingest](https://github.com/vectara/vectara-ingest). | [Fork differs](https://github.com/vectara/vectara-ingest/compare/main...matthewhand:main); no upstream PR found. |
+
+PR statuses checked 5 November 2026, covering public upstream PRs authored by matthewhand. “Fork differs” means default-branch commits differ from upstream; it does not establish authorship or active development. No PR found is not proof of no contribution.
 
 See each repository and its upstream documentation for current setup, platform support and limitations. Models, dependencies and assets retain their own licence terms.
 

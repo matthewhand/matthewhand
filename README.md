@@ -10,13 +10,13 @@ My projects and integrations are listed first, followed by public forks and adap
 |---|---|
 | **[open-wiimote](https://github.com/matthewhand/open-wiimote)** | <img src="https://raw.githubusercontent.com/matthewhand/open-wiimote/main/docs/images/open-wiimote.svg" alt="OpenWiimote: bring your Wii Remote back into play" width="400" height="100"><br><br>Wii Remote buttons and tilt as a virtual gamepad, with desktop and browser interfaces. Windows/macOS remain targets; macOS virtual-gamepad output is not implemented. **Linux x64 prerelease** · [ISC](https://github.com/matthewhand/open-wiimote/blob/main/LICENSE) · [Downloads](https://github.com/matthewhand/open-wiimote/releases) · [Roadmap](https://github.com/matthewhand/open-wiimote#roadmap). |
 | **[waltop-osx](https://github.com/matthewhand/waltop-osx)** | Userspace pen-pressure support for the WALTOP Slim Tablet 12.1 on macOS. **Hardware integration** · [MIT](https://github.com/matthewhand/waltop-osx/blob/main/LICENSE). |
-| **[operating-swarm](https://github.com/matthewhand/operating-swarm)** | Agent workflows across model APIs, agent CLIs and remote harnesses, with an API, CLI and WebUI. **Desktop app not yet built.** **Experimental alpha** · [MIT](https://github.com/matthewhand/operating-swarm/blob/main/LICENSE). |
 
 ## Self-hosted Web Apps
 
 | Project | Description |
 |---|---|
 | **[funes-vision](https://github.com/matthewhand/funes-vision)** | Local watched-folder browser for JPEG snapshots and grouped visits, with a demo gallery. **Public alpha** · [MIT](https://github.com/matthewhand/funes-vision/blob/main/LICENSE). |
+| **[operating-swarm](https://github.com/matthewhand/operating-swarm)** | Agent workflows across model APIs, agent CLIs and remote harnesses, with an API, CLI and WebUI. **Desktop app not yet built.** **Experimental alpha** · [MIT](https://github.com/matthewhand/operating-swarm/blob/main/LICENSE). |
 
 ## AI Infrastructure & Developer Tools
 

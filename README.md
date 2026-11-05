@@ -15,7 +15,7 @@ My projects and integrations are listed first, followed by public forks and adap
 | Project | Description |
 |---|---|
 | **[waltop-osx](https://github.com/matthewhand/waltop-osx)** | Userspace pen-pressure support for the WALTOP Slim Tablet 12.1 on macOS. **Hardware integration** · [MIT](https://github.com/matthewhand/waltop-osx/blob/main/LICENSE). |
-| **[operating-swarm](https://github.com/matthewhand/operating-swarm)** | Agent workflows across model APIs, agent CLIs and remote harnesses, with an API, CLI and WebUI. **Desktop app not yet built.** Evolved from [OpenAI Swarm](https://github.com/openai/swarm). **Experimental alpha** · [MIT](https://github.com/matthewhand/operating-swarm/blob/main/LICENSE). |
+| **[operating-swarm](https://github.com/matthewhand/operating-swarm)** | Agent workflows across model APIs, agent CLIs and remote harnesses, with an API, CLI and WebUI. **Desktop app not yet built.** **Experimental alpha** · [MIT](https://github.com/matthewhand/operating-swarm/blob/main/LICENSE). |
 
 ## Smart Home & Intelligent Automation
 

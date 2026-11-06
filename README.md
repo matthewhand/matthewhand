@@ -18,7 +18,7 @@ OpenAPI-described REST APIs as MCP tools over Streamable HTTP or stdio.
 
 ---
 
-<a href="https://github.com/matthewhand/mcp-flowise"><img src="https://raw.githubusercontent.com/matthewhand/mcp-flowise/efc65803bf2613943e6e46cbc75cf829cceff573/docs/assets/mcp-flowise-banner.png" alt="MCP clients discover and run Flowise chatflows through mcp-flowise" width="600"></a>
+<a href="https://github.com/matthewhand/mcp-flowise"><img src="https://raw.githubusercontent.com/matthewhand/mcp-flowise/dc08150e8b7940ea2db8008444795c4c458c62a2/docs/assets/mcp-flowise-banner.png" alt="Flowise chatflows are exposed as LLM tools through mcp-flowise" width="600"></a>
 
 Repo: [matthewhand/mcp-flowise](https://github.com/matthewhand/mcp-flowise)
 
@@ -26,7 +26,7 @@ Discover and run Flowise chatflows from MCP clients, with authentication and flo
 
 ---
 
-<a href="https://github.com/matthewhand/openai-f5-tts"><img src="https://raw.githubusercontent.com/matthewhand/openai-f5-tts/f9f2a70a577eb4d27d36577f4e9eb7fea592e08f/docs/assets/openai-f5-tts-banner.png" alt="An OpenAI-compatible TTS API runs the F5-TTS model to generate speech" width="600"></a>
+<a href="https://github.com/matthewhand/openai-f5-tts"><img src="https://raw.githubusercontent.com/matthewhand/openai-f5-tts/967bf1aec5a94d286f8800be8c38a8b6296225e2/docs/assets/openai-f5-tts-banner.png" alt="A client app sends text to the TTS API backed by the F5-TTS model and receives audio" width="600"></a>
 
 Repo: [matthewhand/openai-f5-tts](https://github.com/matthewhand/openai-f5-tts)
 
@@ -34,7 +34,7 @@ Independent F5-TTS API wrapper for self-hosted speech, selectable voices, custom
 
 ---
 
-<a href="https://github.com/matthewhand/openai-kokoro-tts"><img src="https://raw.githubusercontent.com/matthewhand/openai-kokoro-tts/103494493a7660286ab23ae009cef37a8ce44cfe/docs/assets/openai-kokoro-tts-banner.png" alt="An OpenAI-compatible TTS API runs the Kokoro model to generate speech" width="600"></a>
+<a href="https://github.com/matthewhand/openai-kokoro-tts"><img src="https://raw.githubusercontent.com/matthewhand/openai-kokoro-tts/c3cb9bd8bee480d1c918d9c1d288bd50419a8d42/docs/assets/openai-kokoro-tts-banner.png" alt="A client app sends text to the TTS API backed by the Kokoro model and receives audio" width="600"></a>
 
 Repo: [matthewhand/openai-kokoro-tts](https://github.com/matthewhand/openai-kokoro-tts)
 
@@ -42,7 +42,7 @@ Independent, CPU-first OpenAI-compatible speech API around Kokoro and kokoro-onn
 
 ---
 
-<a href="https://github.com/matthewhand/llama-stack-bridge"><img src="https://raw.githubusercontent.com/matthewhand/llama-stack-bridge/594b8209dbd498f06a9eac2d483e3f570b10f6a7/docs/assets/llama-stack-bridge-banner.png" alt="OpenAI-style clients connect to Llama Stack through llama-stack-bridge" width="600"></a>
+<a href="https://github.com/matthewhand/llama-stack-bridge"><img src="https://raw.githubusercontent.com/matthewhand/llama-stack-bridge/80306ac20caa529417577a36d20b547bcc6caa58/docs/assets/llama-stack-bridge-banner.png" alt="llama-stack-bridge translates chat-completion requests and responses between an OpenAI-compatible client and Llama Stack" width="600"></a>
 
 Repo: [matthewhand/llama-stack-bridge](https://github.com/matthewhand/llama-stack-bridge)
 

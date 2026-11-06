@@ -4,7 +4,7 @@ I build local-first AI tools, agent workflows and useful apps, spanning speech, 
 
 My projects and integrations are listed first, followed by selected upstream contributions.
 
-**Quick links:** [AI Infrastructure](#ai-infrastructure) · [Hardware & Input](#hardware--input) · [Android TV Apps](#android-tv-apps) · [Self-hosted Web Apps](#self-hosted-web-apps) · [Open-source contributions](#open-source-contributions)
+**Quick links:** [AI Infrastructure](#ai-infrastructure) · [Desktop Apps](#desktop-apps) · [Hardware & Input](#hardware--input) · [Android TV Apps](#android-tv-apps) · [Self-hosted Web Apps](#self-hosted-web-apps) · [Open-source contributions](#open-source-contributions)
 
 <img src="https://raw.githubusercontent.com/matthewhand/matthewhand/main/assets/section-divider.svg" alt="" width="600">
 
@@ -47,6 +47,18 @@ Independent, CPU-first OpenAI-compatible speech API around Kokoro and kokoro-onn
 Repo: [matthewhand/llama-stack-bridge](https://github.com/matthewhand/llama-stack-bridge)
 
 Nginx/njs adapter for Llama Stack model lists and non-streaming chat.
+
+<br>
+
+<img src="https://raw.githubusercontent.com/matthewhand/matthewhand/main/assets/section-divider.svg" alt="" width="600">
+
+## Desktop Apps
+
+<a href="https://github.com/matthewhand/scribble-everywhere"><img src="https://raw.githubusercontent.com/matthewhand/scribble-everywhere/main/docs/images/banner.png" alt="ScribbleEverywhere: draw over a window, then copy or paste the annotated image" width="600"></a>
+
+Repo: [matthewhand/scribble-everywhere](https://github.com/matthewhand/scribble-everywhere)
+
+Desktop annotation for Windows, macOS and Omarchy/Hyprland. Draw over a window, then copy or paste the annotated image. Experimental source preview.
 
 <br>
 

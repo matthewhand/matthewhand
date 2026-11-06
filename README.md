@@ -10,7 +10,7 @@ My projects and integrations are listed first, followed by selected upstream con
 
 ## AI Infrastructure
 
-<a href="https://github.com/matthewhand/mcp-openapi-proxy"><img src="https://raw.githubusercontent.com/matthewhand/mcp-openapi-proxy/main/docs/assets/mcp-openapi-proxy-banner.png" alt="OpenAPI endpoints become LLM tools through MCP OpenAPI Proxy" width="600"></a>
+<a href="https://github.com/matthewhand/mcp-openapi-proxy"><img src="https://raw.githubusercontent.com/matthewhand/matthewhand/main/assets/mcp-openapi-proxy-banner-v2.png" alt="OpenAPI endpoints become LLM tools through MCP OpenAPI Proxy" width="600"></a>
 
 Repo: [matthewhand/mcp-openapi-proxy](https://github.com/matthewhand/mcp-openapi-proxy)
 
@@ -18,7 +18,7 @@ OpenAPI-described REST APIs as MCP tools over Streamable HTTP or stdio.
 
 ---
 
-<a href="https://github.com/matthewhand/mcp-flowise"><img src="https://raw.githubusercontent.com/matthewhand/mcp-flowise/dc08150e8b7940ea2db8008444795c4c458c62a2/docs/assets/mcp-flowise-banner.png" alt="Flowise chatflows are exposed as LLM tools through mcp-flowise" width="600"></a>
+<a href="https://github.com/matthewhand/mcp-flowise"><img src="https://raw.githubusercontent.com/matthewhand/matthewhand/main/assets/mcp-flowise-banner-titled.png" alt="Flowise chatflows are exposed as LLM tools through mcp-flowise" width="600"></a>
 
 Repo: [matthewhand/mcp-flowise](https://github.com/matthewhand/mcp-flowise)
 
@@ -110,7 +110,7 @@ Agent workflows across model APIs, agent CLIs and remote harnesses, with an API,
 
 Repo: [matthewhand/trackie-assistant](https://github.com/matthewhand/trackie-assistant)
 
-Archive permitted public Suno tracks locally, with a WebUI, CLI and Home Assistant add-on.
+Save cloud music locally (currently Suno), then listen with your player of choice, like Music Assistant.
 
 <br>
 

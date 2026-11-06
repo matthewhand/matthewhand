@@ -26,7 +26,7 @@ Discover and run Flowise chatflows from MCP clients, with authentication and flo
 
 ---
 
-<a href="https://github.com/matthewhand/openai-f5-tts"><img src="https://raw.githubusercontent.com/matthewhand/openai-f5-tts/967bf1aec5a94d286f8800be8c38a8b6296225e2/docs/assets/openai-f5-tts-banner.png" alt="A client app sends text to the TTS API backed by the F5-TTS model and receives audio" width="600"></a>
+<a href="https://github.com/matthewhand/openai-f5-tts"><img src="https://raw.githubusercontent.com/matthewhand/openai-f5-tts/062d118ed63ddea48e4cc0802a28995cb0af362a/docs/assets/openai-f5-tts-banner.png" alt="A client app sends text to openai-f5-tts at /v1/audio/speech; the F5-TTS model generates audio" width="600"></a>
 
 Repo: [matthewhand/openai-f5-tts](https://github.com/matthewhand/openai-f5-tts)
 
@@ -34,7 +34,7 @@ Independent F5-TTS API wrapper for self-hosted speech, selectable voices, custom
 
 ---
 
-<a href="https://github.com/matthewhand/openai-kokoro-tts"><img src="https://raw.githubusercontent.com/matthewhand/openai-kokoro-tts/c3cb9bd8bee480d1c918d9c1d288bd50419a8d42/docs/assets/openai-kokoro-tts-banner.png" alt="A client app sends text to the TTS API backed by the Kokoro model and receives audio" width="600"></a>
+<a href="https://github.com/matthewhand/openai-kokoro-tts"><img src="https://raw.githubusercontent.com/matthewhand/openai-kokoro-tts/b45e3059e5bda8c802af14b3ababcdc0539626ae/docs/assets/openai-kokoro-tts-banner.png" alt="A client app sends text to openai-kokoro-tts at /v1/audio/speech; the Kokoro model generates audio" width="600"></a>
 
 Repo: [matthewhand/openai-kokoro-tts](https://github.com/matthewhand/openai-kokoro-tts)
 

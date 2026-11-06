@@ -10,7 +10,7 @@ My projects and integrations are listed first, followed by selected upstream con
 
 ## AI Infrastructure
 
-<img src="https://raw.githubusercontent.com/matthewhand/mcp-openapi-proxy/main/docs/assets/mcp-openapi-proxy-banner.png" alt="OpenAPI endpoints become LLM tools through MCP OpenAPI Proxy" width="600">
+<a href="https://github.com/matthewhand/mcp-openapi-proxy"><img src="https://raw.githubusercontent.com/matthewhand/mcp-openapi-proxy/main/docs/assets/mcp-openapi-proxy-banner.png" alt="OpenAPI endpoints become LLM tools through MCP OpenAPI Proxy" width="600"></a>
 
 Repo: [matthewhand/mcp-openapi-proxy](https://github.com/matthewhand/mcp-openapi-proxy)
 
@@ -18,7 +18,7 @@ OpenAPI-described REST APIs as MCP tools over Streamable HTTP or stdio.
 
 ---
 
-<img src="https://raw.githubusercontent.com/matthewhand/mcp-flowise/efc65803bf2613943e6e46cbc75cf829cceff573/docs/assets/mcp-flowise-banner.png" alt="MCP clients discover and run Flowise chatflows through mcp-flowise" width="600">
+<a href="https://github.com/matthewhand/mcp-flowise"><img src="https://raw.githubusercontent.com/matthewhand/mcp-flowise/efc65803bf2613943e6e46cbc75cf829cceff573/docs/assets/mcp-flowise-banner.png" alt="MCP clients discover and run Flowise chatflows through mcp-flowise" width="600"></a>
 
 Repo: [matthewhand/mcp-flowise](https://github.com/matthewhand/mcp-flowise)
 
@@ -26,7 +26,7 @@ Discover and run Flowise chatflows from MCP clients, with authentication and flo
 
 ---
 
-<img src="https://raw.githubusercontent.com/matthewhand/openai-f5-tts/f9f2a70a577eb4d27d36577f4e9eb7fea592e08f/docs/assets/openai-f5-tts-banner.png" alt="An OpenAI-compatible TTS API runs the F5-TTS model to generate speech" width="600">
+<a href="https://github.com/matthewhand/openai-f5-tts"><img src="https://raw.githubusercontent.com/matthewhand/openai-f5-tts/f9f2a70a577eb4d27d36577f4e9eb7fea592e08f/docs/assets/openai-f5-tts-banner.png" alt="An OpenAI-compatible TTS API runs the F5-TTS model to generate speech" width="600"></a>
 
 Repo: [matthewhand/openai-f5-tts](https://github.com/matthewhand/openai-f5-tts)
 
@@ -34,7 +34,7 @@ Independent F5-TTS API wrapper for self-hosted speech, selectable voices, custom
 
 ---
 
-<img src="https://raw.githubusercontent.com/matthewhand/openai-kokoro-tts/103494493a7660286ab23ae009cef37a8ce44cfe/docs/assets/openai-kokoro-tts-banner.png" alt="An OpenAI-compatible TTS API runs the Kokoro model to generate speech" width="600">
+<a href="https://github.com/matthewhand/openai-kokoro-tts"><img src="https://raw.githubusercontent.com/matthewhand/openai-kokoro-tts/103494493a7660286ab23ae009cef37a8ce44cfe/docs/assets/openai-kokoro-tts-banner.png" alt="An OpenAI-compatible TTS API runs the Kokoro model to generate speech" width="600"></a>
 
 Repo: [matthewhand/openai-kokoro-tts](https://github.com/matthewhand/openai-kokoro-tts)
 
@@ -42,7 +42,7 @@ Independent, CPU-first OpenAI-compatible speech API around Kokoro and kokoro-onn
 
 ---
 
-<img src="https://raw.githubusercontent.com/matthewhand/llama-stack-bridge/594b8209dbd498f06a9eac2d483e3f570b10f6a7/docs/assets/llama-stack-bridge-banner.png" alt="OpenAI-style clients connect to Llama Stack through llama-stack-bridge" width="600">
+<a href="https://github.com/matthewhand/llama-stack-bridge"><img src="https://raw.githubusercontent.com/matthewhand/llama-stack-bridge/594b8209dbd498f06a9eac2d483e3f570b10f6a7/docs/assets/llama-stack-bridge-banner.png" alt="OpenAI-style clients connect to Llama Stack through llama-stack-bridge" width="600"></a>
 
 Repo: [matthewhand/llama-stack-bridge](https://github.com/matthewhand/llama-stack-bridge)
 
@@ -54,7 +54,7 @@ Nginx/njs adapter for Llama Stack model lists and non-streaming chat.
 
 ## Hardware & Input
 
-<img src="https://raw.githubusercontent.com/matthewhand/open-wiimote/main/docs/images/open-wiimote.svg" alt="OpenWiimote: bring your Wii Remote back into play" width="600">
+<a href="https://github.com/matthewhand/open-wiimote"><img src="https://raw.githubusercontent.com/matthewhand/open-wiimote/main/docs/images/open-wiimote.svg" alt="OpenWiimote: bring your Wii Remote back into play" width="600"></a>
 
 Repo: [matthewhand/open-wiimote](https://github.com/matthewhand/open-wiimote)
 
@@ -62,7 +62,7 @@ Wii Remote buttons and tilt as a virtual gamepad on Linux, with desktop and brow
 
 ---
 
-<img src="https://raw.githubusercontent.com/matthewhand/matthewhand/main/assets/waltop-osx-banner.png" alt="waltop-osx: pen pressure for macOS" width="600">
+<a href="https://github.com/matthewhand/waltop-osx"><img src="https://raw.githubusercontent.com/matthewhand/matthewhand/main/assets/waltop-osx-banner.png" alt="waltop-osx: pen pressure for macOS" width="600"></a>
 
 Repo: [matthewhand/waltop-osx](https://github.com/matthewhand/waltop-osx)
 
@@ -74,7 +74,7 @@ Userspace pen-pressure support for the WALTOP Slim Tablet 12.1 on macOS.
 
 ## Android TV Apps
 
-<img src="https://raw.githubusercontent.com/matthewhand/matthewhand/main/assets/kinegra-home-banner-wide.png" alt="Kinegra Home: two apps on one Android TV screen" width="600">
+<a href="https://github.com/matthewhand/kinegra-home"><img src="https://raw.githubusercontent.com/matthewhand/matthewhand/main/assets/kinegra-home-banner-wide.png" alt="Kinegra Home: two apps on one Android TV screen" width="600"></a>
 
 Repo: [matthewhand/kinegra-home](https://github.com/matthewhand/kinegra-home)
 
@@ -82,7 +82,7 @@ Adjustable side-by-side Split View and remote session controls for NVIDIA SHIELD
 
 ---
 
-<img src="https://raw.githubusercontent.com/matthewhand/matthewhand/main/assets/kinegra-amp-banner-wide.png" alt="Kinegra Amp: music and visuals for NVIDIA SHIELD" width="600">
+<a href="https://github.com/matthewhand/kinegra-amp"><img src="https://raw.githubusercontent.com/matthewhand/matthewhand/main/assets/kinegra-amp-banner-wide.png" alt="Kinegra Amp: music and visuals for NVIDIA SHIELD" width="600"></a>
 
 Repo: [matthewhand/kinegra-amp](https://github.com/matthewhand/kinegra-amp)
 
@@ -106,7 +106,7 @@ Agent workflows across model APIs, agent CLIs and remote harnesses, with an API,
 
 ---
 
-<img src="https://raw.githubusercontent.com/matthewhand/trackie-assistant/main/docs/trackie-assistant-banner.png" alt="Trackie Assistant featuring Trackie Dacks, the tracksuit-pants mascot wearing headphones" width="600">
+<a href="https://github.com/matthewhand/trackie-assistant"><img src="https://raw.githubusercontent.com/matthewhand/trackie-assistant/main/docs/trackie-assistant-banner.png" alt="Trackie Assistant featuring Trackie Dacks, the tracksuit-pants mascot wearing headphones" width="600"></a>
 
 Repo: [matthewhand/trackie-assistant](https://github.com/matthewhand/trackie-assistant)
 

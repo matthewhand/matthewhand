@@ -58,7 +58,7 @@ Nginx/njs adapter for Llama Stack model lists and non-streaming chat.
 
 Repo: [matthewhand/scribble-everywhere](https://github.com/matthewhand/scribble-everywhere)
 
-Desktop annotation for Windows, macOS and Omarchy/Hyprland. Draw over a window, then copy or paste the annotated image. Experimental source preview.
+Desktop annotation for Windows, macOS and Omarchy/Hyprland. Draw over a window, then copy or paste the annotated image.
 
 <br>
 

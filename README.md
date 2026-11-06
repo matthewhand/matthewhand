@@ -4,11 +4,15 @@ I build local-first AI tools, agent workflows and useful apps, spanning speech, 
 
 My projects and integrations are listed first, followed by selected upstream contributions.
 
+**Quick links:** [AI Infrastructure](#ai-infrastructure) · [Desktop Software](#desktop-software) · [Android TV Apps](#android-tv-apps) · [Self-hosted Web Apps](#self-hosted-web-apps) · [Open-source contributions](#open-source-contributions)
+
+<img src="https://raw.githubusercontent.com/matthewhand/matthewhand/main/assets/section-divider.svg" alt="" width="600">
+
 ## AI Infrastructure
 
 <img src="https://raw.githubusercontent.com/matthewhand/mcp-openapi-proxy/main/docs/assets/mcp-openapi-proxy-banner.png" alt="OpenAPI endpoints become LLM tools through MCP OpenAPI Proxy" width="600">
 
-[Link to repo](https://github.com/matthewhand/mcp-openapi-proxy)
+[matthewhand/mcp-openapi-proxy](https://github.com/matthewhand/mcp-openapi-proxy)
 
 OpenAPI-described REST APIs as MCP tools over Streamable HTTP or stdio.
 
@@ -36,11 +40,15 @@ Independent, CPU-first OpenAI-compatible speech API around Kokoro and kokoro-onn
 
 Nginx/njs adapter for Llama Stack model lists and non-streaming chat.
 
+<br>
+
+<img src="https://raw.githubusercontent.com/matthewhand/matthewhand/main/assets/section-divider.svg" alt="" width="600">
+
 ## Desktop Software
 
 <img src="https://raw.githubusercontent.com/matthewhand/open-wiimote/main/docs/images/open-wiimote.svg" alt="OpenWiimote: bring your Wii Remote back into play" width="600">
 
-[Link to repo](https://github.com/matthewhand/open-wiimote)
+[matthewhand/open-wiimote](https://github.com/matthewhand/open-wiimote)
 
 Wii Remote buttons and tilt as a virtual gamepad on Linux, with desktop and browser interfaces.
 
@@ -48,25 +56,33 @@ Wii Remote buttons and tilt as a virtual gamepad on Linux, with desktop and brow
 
 <img src="https://raw.githubusercontent.com/matthewhand/matthewhand/main/assets/waltop-osx-banner.png" alt="waltop-osx: pen pressure for macOS" width="600">
 
-[Link to repo](https://github.com/matthewhand/waltop-osx)
+[matthewhand/waltop-osx](https://github.com/matthewhand/waltop-osx)
 
 Userspace pen-pressure support for the WALTOP Slim Tablet 12.1 on macOS.
 
+<br>
+
+<img src="https://raw.githubusercontent.com/matthewhand/matthewhand/main/assets/section-divider.svg" alt="" width="600">
+
 ## Android TV Apps
 
-<img src="https://raw.githubusercontent.com/matthewhand/kinegra-home/e02bb02dad0e0634b9758740e4e000aed907ee82/docs/branding/kinegra-home-banner-v2.png" alt="Kinegra Home: two apps on one Android TV screen" width="450">
+<img src="https://raw.githubusercontent.com/matthewhand/matthewhand/main/assets/kinegra-home-banner-wide.png" alt="Kinegra Home: two apps on one Android TV screen" width="600">
 
-[Link to repo](https://github.com/matthewhand/kinegra-home)
+[matthewhand/kinegra-home](https://github.com/matthewhand/kinegra-home)
 
 Adjustable side-by-side Split View and remote session controls for NVIDIA SHIELD.
 
 ---
 
-<img src="https://raw.githubusercontent.com/matthewhand/kinegra-amp/d4f368d9d2991ef53da277fa5966ab6ab1db0fda/docs/branding/kinegra-amp-banner.png" alt="Kinegra Amp: music and visuals for NVIDIA SHIELD" width="450">
+<img src="https://raw.githubusercontent.com/matthewhand/matthewhand/main/assets/kinegra-amp-banner-wide.png" alt="Kinegra Amp: music and visuals for NVIDIA SHIELD" width="600">
 
-[Link to repo](https://github.com/matthewhand/kinegra-amp)
+[matthewhand/kinegra-amp](https://github.com/matthewhand/kinegra-amp)
 
 Music Assistant and local-file player with queues, audio-reactive visuals and optional webcam avatars.
+
+<br>
+
+<img src="https://raw.githubusercontent.com/matthewhand/matthewhand/main/assets/section-divider.svg" alt="" width="600">
 
 ## Self-hosted Web Apps
 
@@ -79,6 +95,10 @@ Local watched-folder browser for JPEG snapshots and grouped visits, with a demo 
 ### [operating&#8209;swarm](https://github.com/matthewhand/operating-swarm)
 
 Agent workflows across model APIs, agent CLIs and remote harnesses, with an API, CLI and WebUI.
+
+<br>
+
+<img src="https://raw.githubusercontent.com/matthewhand/matthewhand/main/assets/section-divider.svg" alt="" width="600">
 
 ## Open-source contributions
 

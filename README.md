@@ -18,25 +18,33 @@ OpenAPI-described REST APIs as MCP tools over Streamable HTTP or stdio.
 
 ---
 
-### [mcp&#8209;flowise](https://github.com/matthewhand/mcp-flowise)
+<img src="https://raw.githubusercontent.com/matthewhand/mcp-flowise/efc65803bf2613943e6e46cbc75cf829cceff573/docs/assets/mcp-flowise-banner.png" alt="MCP clients discover and run Flowise chatflows through mcp-flowise" width="600">
+
+[matthewhand/mcp-flowise](https://github.com/matthewhand/mcp-flowise)
 
 Discover and run Flowise chatflows from MCP clients, with authentication and flow filtering.
 
 ---
 
-### [openai&#8209;f5&#8209;tts](https://github.com/matthewhand/openai-f5-tts)
+<img src="https://raw.githubusercontent.com/matthewhand/openai-f5-tts/f9f2a70a577eb4d27d36577f4e9eb7fea592e08f/docs/assets/openai-f5-tts-banner.png" alt="An OpenAI-compatible TTS API runs the F5-TTS model to generate speech" width="600">
+
+[matthewhand/openai-f5-tts](https://github.com/matthewhand/openai-f5-tts)
 
 Independent F5-TTS API wrapper for self-hosted speech, selectable voices, custom checkpoints, sentence-level PCM streaming and estimated timestamps.
 
 ---
 
-### [openai&#8209;kokoro&#8209;tts](https://github.com/matthewhand/openai-kokoro-tts)
+<img src="https://raw.githubusercontent.com/matthewhand/openai-kokoro-tts/103494493a7660286ab23ae009cef37a8ce44cfe/docs/assets/openai-kokoro-tts-banner.png" alt="An OpenAI-compatible TTS API runs the Kokoro model to generate speech" width="600">
+
+[matthewhand/openai-kokoro-tts](https://github.com/matthewhand/openai-kokoro-tts)
 
 Independent, CPU-first OpenAI-compatible speech API around Kokoro and kokoro-onnx.
 
 ---
 
-### [llama&#8209;stack&#8209;bridge](https://github.com/matthewhand/llama-stack-bridge)
+<img src="https://raw.githubusercontent.com/matthewhand/llama-stack-bridge/594b8209dbd498f06a9eac2d483e3f570b10f6a7/docs/assets/llama-stack-bridge-banner.png" alt="OpenAI-style clients connect to Llama Stack through llama-stack-bridge" width="600">
+
+[matthewhand/llama-stack-bridge](https://github.com/matthewhand/llama-stack-bridge)
 
 Nginx/njs adapter for Llama Stack model lists and non-streaming chat.
 

@@ -6,29 +6,33 @@ My projects and integrations are listed first, followed by selected upstream con
 
 ## Desktop Software
 
-### [open&#8209;wiimote](https://github.com/matthewhand/open-wiimote)
-
 <img src="https://raw.githubusercontent.com/matthewhand/open-wiimote/main/docs/images/open-wiimote.svg" alt="OpenWiimote: bring your Wii Remote back into play" width="600">
+
+[Link to repo](https://github.com/matthewhand/open-wiimote)
 
 Wii Remote buttons and tilt as a virtual gamepad on Linux, with desktop and browser interfaces.
 
-### [waltop&#8209;osx](https://github.com/matthewhand/waltop-osx)
+---
 
 <img src="https://raw.githubusercontent.com/matthewhand/matthewhand/main/assets/waltop-osx-banner.png" alt="waltop-osx: pen pressure for macOS" width="600">
+
+[Link to repo](https://github.com/matthewhand/waltop-osx)
 
 Userspace pen-pressure support for the WALTOP Slim Tablet 12.1 on macOS.
 
 ## Android TV Apps
 
-### [Kinegra&nbsp;Home](https://github.com/matthewhand/kinegra-home)
-
 <img src="https://raw.githubusercontent.com/matthewhand/kinegra-home/e02bb02dad0e0634b9758740e4e000aed907ee82/docs/branding/kinegra-home-banner-v2.png" alt="Kinegra Home: two apps on one Android TV screen" width="450">
+
+[Link to repo](https://github.com/matthewhand/kinegra-home)
 
 Adjustable side-by-side Split View and remote session controls for NVIDIA SHIELD.
 
-### [Kinegra&nbsp;Amp](https://github.com/matthewhand/kinegra-amp)
+---
 
 <img src="https://raw.githubusercontent.com/matthewhand/kinegra-amp/d4f368d9d2991ef53da277fa5966ab6ab1db0fda/docs/branding/kinegra-amp-banner.png" alt="Kinegra Amp: music and visuals for NVIDIA SHIELD" width="450">
+
+[Link to repo](https://github.com/matthewhand/kinegra-amp)
 
 Music Assistant and local-file player with queues, audio-reactive visuals and optional webcam avatars.
 
@@ -38,29 +42,39 @@ Music Assistant and local-file player with queues, audio-reactive visuals and op
 
 Local watched-folder browser for JPEG snapshots and grouped visits, with a demo gallery.
 
+---
+
 ### [operating&#8209;swarm](https://github.com/matthewhand/operating-swarm)
 
 Agent workflows across model APIs, agent CLIs and remote harnesses, with an API, CLI and WebUI.
 
 ## AI Infrastructure & Developer Tools
 
-### [mcp&#8209;openapi&#8209;proxy](https://github.com/matthewhand/mcp-openapi-proxy)
-
 <img src="https://raw.githubusercontent.com/matthewhand/mcp-openapi-proxy/main/docs/assets/mcp-openapi-proxy-banner.png" alt="OpenAPI endpoints become LLM tools through MCP OpenAPI Proxy" width="600">
 
+[Link to repo](https://github.com/matthewhand/mcp-openapi-proxy)
+
 OpenAPI-described REST APIs as MCP tools over Streamable HTTP or stdio.
+
+---
 
 ### [mcp&#8209;flowise](https://github.com/matthewhand/mcp-flowise)
 
 Discover and run Flowise chatflows from MCP clients, with authentication and flow filtering.
 
+---
+
 ### [openai&#8209;f5&#8209;tts](https://github.com/matthewhand/openai-f5-tts)
 
 Independent F5-TTS API wrapper for self-hosted speech, selectable voices, custom checkpoints, sentence-level PCM streaming and estimated timestamps.
 
+---
+
 ### [openai&#8209;kokoro&#8209;tts](https://github.com/matthewhand/openai-kokoro-tts)
 
 Independent, CPU-first OpenAI-compatible speech API around Kokoro and kokoro-onnx.
+
+---
 
 ### [llama&#8209;stack&#8209;bridge](https://github.com/matthewhand/llama-stack-bridge)
 

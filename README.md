@@ -4,6 +4,38 @@ I build local-first AI tools, agent workflows and useful apps, spanning speech, 
 
 My projects and integrations are listed first, followed by selected upstream contributions.
 
+## AI Infrastructure
+
+<img src="https://raw.githubusercontent.com/matthewhand/mcp-openapi-proxy/main/docs/assets/mcp-openapi-proxy-banner.png" alt="OpenAPI endpoints become LLM tools through MCP OpenAPI Proxy" width="600">
+
+[Link to repo](https://github.com/matthewhand/mcp-openapi-proxy)
+
+OpenAPI-described REST APIs as MCP tools over Streamable HTTP or stdio.
+
+---
+
+### [mcp&#8209;flowise](https://github.com/matthewhand/mcp-flowise)
+
+Discover and run Flowise chatflows from MCP clients, with authentication and flow filtering.
+
+---
+
+### [openai&#8209;f5&#8209;tts](https://github.com/matthewhand/openai-f5-tts)
+
+Independent F5-TTS API wrapper for self-hosted speech, selectable voices, custom checkpoints, sentence-level PCM streaming and estimated timestamps.
+
+---
+
+### [openai&#8209;kokoro&#8209;tts](https://github.com/matthewhand/openai-kokoro-tts)
+
+Independent, CPU-first OpenAI-compatible speech API around Kokoro and kokoro-onnx.
+
+---
+
+### [llama&#8209;stack&#8209;bridge](https://github.com/matthewhand/llama-stack-bridge)
+
+Nginx/njs adapter for Llama Stack model lists and non-streaming chat.
+
 ## Desktop Software
 
 <img src="https://raw.githubusercontent.com/matthewhand/open-wiimote/main/docs/images/open-wiimote.svg" alt="OpenWiimote: bring your Wii Remote back into play" width="600">
@@ -47,38 +79,6 @@ Local watched-folder browser for JPEG snapshots and grouped visits, with a demo 
 ### [operating&#8209;swarm](https://github.com/matthewhand/operating-swarm)
 
 Agent workflows across model APIs, agent CLIs and remote harnesses, with an API, CLI and WebUI.
-
-## AI Infrastructure & Developer Tools
-
-<img src="https://raw.githubusercontent.com/matthewhand/mcp-openapi-proxy/main/docs/assets/mcp-openapi-proxy-banner.png" alt="OpenAPI endpoints become LLM tools through MCP OpenAPI Proxy" width="600">
-
-[Link to repo](https://github.com/matthewhand/mcp-openapi-proxy)
-
-OpenAPI-described REST APIs as MCP tools over Streamable HTTP or stdio.
-
----
-
-### [mcp&#8209;flowise](https://github.com/matthewhand/mcp-flowise)
-
-Discover and run Flowise chatflows from MCP clients, with authentication and flow filtering.
-
----
-
-### [openai&#8209;f5&#8209;tts](https://github.com/matthewhand/openai-f5-tts)
-
-Independent F5-TTS API wrapper for self-hosted speech, selectable voices, custom checkpoints, sentence-level PCM streaming and estimated timestamps.
-
----
-
-### [openai&#8209;kokoro&#8209;tts](https://github.com/matthewhand/openai-kokoro-tts)
-
-Independent, CPU-first OpenAI-compatible speech API around Kokoro and kokoro-onnx.
-
----
-
-### [llama&#8209;stack&#8209;bridge](https://github.com/matthewhand/llama-stack-bridge)
-
-Nginx/njs adapter for Llama Stack model lists and non-streaming chat.
 
 ## Open-source contributions
 

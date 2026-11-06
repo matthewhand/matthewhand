@@ -15,6 +15,7 @@ My projects and integrations are listed first, followed by public forks and adap
 
 | Project | Description |
 |---|---|
+| **[Kinegra Home](https://github.com/matthewhand/kinegra-home)** | <img src="https://raw.githubusercontent.com/matthewhand/kinegra-home/e02bb02dad0e0634b9758740e4e000aed907ee82/docs/branding/kinegra-home-banner-v2.png" alt="Kinegra Home: two apps on one Android TV screen" width="600"><br><br>Adjustable side-by-side Split View and remote session controls for NVIDIA SHIELD. **[0.9.25 public beta](https://github.com/matthewhand/kinegra-home/releases/tag/v0.9.25)** · MIT; PiP is experimental and some app pairs may show a blank pane. |
 | **[Kinegra Amp](https://github.com/matthewhand/kinegra-amp)** | <img src="https://raw.githubusercontent.com/matthewhand/kinegra-amp/d4f368d9d2991ef53da277fa5966ab6ab1db0fda/docs/branding/kinegra-amp-banner.png" alt="Kinegra Amp: music and visuals for NVIDIA SHIELD" width="600"><br><br>Music Assistant and local-file player with queues, audio-reactive visuals and optional webcam avatars. **[1.0.10 public beta](https://github.com/matthewhand/kinegra-amp/releases/tag/v1.0.10)** · MIT; bulk offline copying and gestures are experimental. |
 
 ## Self-hosted Web Apps

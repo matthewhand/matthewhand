@@ -11,6 +11,12 @@ My projects and integrations are listed first, followed by public forks and adap
 | **[open-wiimote](https://github.com/matthewhand/open-wiimote)** | <img src="https://raw.githubusercontent.com/matthewhand/open-wiimote/main/docs/images/open-wiimote.svg" alt="OpenWiimote: bring your Wii Remote back into play" width="600"><br><br>Wii Remote buttons and tilt as a virtual gamepad, with desktop and browser interfaces. **Linux x64 prerelease** · ISC. |
 | **[waltop-osx](https://github.com/matthewhand/waltop-osx)** | Userspace pen-pressure support for the WALTOP Slim Tablet 12.1 on macOS. **Hardware integration** · MIT. |
 
+## Android TV Apps
+
+| Project | Description |
+|---|---|
+| **[Kinegra Amp](https://github.com/matthewhand/kinegra-amp)** | <img src="https://raw.githubusercontent.com/matthewhand/kinegra-amp/d4f368d9d2991ef53da277fa5966ab6ab1db0fda/docs/branding/kinegra-amp-banner.png" alt="Kinegra Amp: music and visuals for NVIDIA SHIELD" width="600"><br><br>Music Assistant and local-file player with queues, audio-reactive visuals and optional webcam avatars. **[1.0.10 public beta](https://github.com/matthewhand/kinegra-amp/releases/tag/v1.0.10)** · MIT; bulk offline copying and gestures are experimental. |
+
 ## Self-hosted Web Apps
 
 | Project | Description |

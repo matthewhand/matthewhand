@@ -106,7 +106,9 @@ Agent workflows across model APIs, agent CLIs and remote harnesses, with an API,
 
 ---
 
-### [Trackie Assistant](https://github.com/matthewhand/trackie-assistant)
+<img src="https://raw.githubusercontent.com/matthewhand/trackie-assistant/main/docs/trackie-assistant-banner.png" alt="Trackie Assistant featuring Trackie Dacks, the tracksuit-pants mascot wearing headphones" width="600">
+
+Repo: [matthewhand/trackie-assistant](https://github.com/matthewhand/trackie-assistant)
 
 Archive permitted public Suno tracks locally, with a WebUI, CLI and Home Assistant add-on.
 

@@ -118,21 +118,10 @@ Save cloud music locally (currently Suno), then listen with your player of choic
 
 ## Open-source contributions
 
-### Merged upstream
-
-| Project | Contribution |
+| Project | Contribution and status |
 |---|---|
 | <h3><a href="https://github.com/open-webui/open-webui">Open&nbsp;WebUI</a></h3> | Added Qdrant Cloud API-key authentication. **Merged:** [#6954](https://github.com/open-webui/open-webui/pull/6954). |
 | <h3><a href="https://github.com/open-webui/docs">Open&nbsp;WebUI&nbsp;Docs</a></h3> | HTTPS/Nginx setup, a RAG tutorial and a restructured Getting Started guide. **Merged:** [#257](https://github.com/open-webui/docs/pull/257), [#260](https://github.com/open-webui/docs/pull/260), [#266](https://github.com/open-webui/docs/pull/266). |
-
-### Under review
-
-| Project | Contribution |
-|---|---|
 | <h3><a href="https://github.com/scottmckenzie/holman-linux-python">Holman&nbsp;Linux&nbsp;SDK</a></h3> | BX2 MK1 discovery and dual-outlet control. **Open:** [#9](https://github.com/scottmckenzie/holman-linux-python/pull/9). |
-| <h3><a href="https://github.com/CopilotKit/openmuse">OpenMuse</a></h3> | Contributed the local-persistence implementation in [#94](https://github.com/CopilotKit/openmuse/pull/94), now carried forward by another contributor in **open** continuation [#166](https://github.com/CopilotKit/openmuse/pull/166). |
+| <h3><a href="https://github.com/CopilotKit/openmuse">OpenMuse</a></h3> | Contributed the local-persistence implementation in [#94](https://github.com/CopilotKit/openmuse/pull/94) (**closed, unmerged**), now carried forward by another contributor in **open** continuation [#166](https://github.com/CopilotKit/openmuse/pull/166). |
 | <h3><a href="https://github.com/emzimmer/server-wp-mcp">WordPress&nbsp;MCP</a></h3> | Added the package executable entry so the server can run directly from GitHub through npx. **Open:** [#5](https://github.com/emzimmer/server-wp-mcp/pull/5). |
-
-See each repository and its upstream documentation for current setup, platform support and limitations. Models, dependencies and assets retain their own licence terms.
-
-[Browse all public repositories](https://github.com/matthewhand?tab=repositories).

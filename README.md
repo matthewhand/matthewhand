@@ -14,6 +14,8 @@ Wii Remote buttons and tilt as a virtual gamepad on Linux, with desktop and brow
 
 ### [waltop&#8209;osx](https://github.com/matthewhand/waltop-osx)
 
+<img src="https://raw.githubusercontent.com/matthewhand/matthewhand/main/assets/waltop-osx-banner.png" alt="waltop-osx: pen pressure for macOS" width="600">
+
 Userspace pen-pressure support for the WALTOP Slim Tablet 12.1 on macOS.
 
 ## Android TV Apps

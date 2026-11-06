@@ -28,8 +28,6 @@ My projects and integrations are listed first, followed by public forks and adap
 | **[openai-kokoro-tts](https://github.com/matthewhand/openai-kokoro-tts)** | Independent, CPU-first OpenAI-compatible speech API around Kokoro and kokoro-onnx. **Community beta** · MIT wrapper; Kokoro-82M weights are Apache-2.0. Not affiliated with OpenAI or the Kokoro/kokoro-onnx authors. |
 | **[llama-stack-bridge](https://github.com/matthewhand/llama-stack-bridge)** | Nginx/njs adapter for Llama Stack model lists and non-streaming chat. **Legacy prototype** · MIT. |
 
-**Supporting repositories:** [matthewhand](https://github.com/matthewhand/matthewhand) (this profile) · [matthewhand.github.io](https://github.com/matthewhand/matthewhand.github.io) (personal website source).
-
 ## Fork contributions
 
 Public forks and adaptations, with upstream attribution and verified PR status. Forking a project does not itself establish a contribution.

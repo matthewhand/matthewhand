@@ -22,11 +22,11 @@ My projects and integrations are listed first, followed by public forks and adap
 
 | Project | Description |
 |---|---|
-| **[llama-stack-bridge](https://github.com/matthewhand/llama-stack-bridge)** | Nginx/njs adapter for Llama Stack model lists and non-streaming chat. **Legacy prototype** · MIT. |
-| **[mcp-flowise](https://github.com/matthewhand/mcp-flowise)** | Discover and run Flowise chatflows from MCP clients, with authentication and flow filtering. **Experimental** · MIT. |
 | **[mcp-openapi-proxy](https://github.com/matthewhand/mcp-openapi-proxy)** | <img src="https://raw.githubusercontent.com/matthewhand/mcp-openapi-proxy/main/docs/assets/mcp-openapi-proxy-banner.png" alt="OpenAPI endpoints become LLM tools through MCP OpenAPI Proxy" width="600"><br><br>OpenAPI-described REST APIs as MCP tools over Streamable HTTP or stdio. **Versioned tool** · MIT. |
+| **[mcp-flowise](https://github.com/matthewhand/mcp-flowise)** | Discover and run Flowise chatflows from MCP clients, with authentication and flow filtering. **Experimental** · MIT. |
 | **[openai-f5-tts](https://github.com/matthewhand/openai-f5-tts)** | Independent F5-TTS API wrapper for self-hosted speech, selectable voices, custom checkpoints, sentence-level PCM streaming and estimated timestamps. **Community beta** · MIT wrapper; pretrained model weights are separately CC-BY-NC. Not affiliated with OpenAI or F5-TTS authors. |
 | **[openai-kokoro-tts](https://github.com/matthewhand/openai-kokoro-tts)** | Independent, CPU-first OpenAI-compatible speech API around Kokoro and kokoro-onnx. **Community beta** · MIT wrapper; Kokoro-82M weights are Apache-2.0. Not affiliated with OpenAI or the Kokoro/kokoro-onnx authors. |
+| **[llama-stack-bridge](https://github.com/matthewhand/llama-stack-bridge)** | Nginx/njs adapter for Llama Stack model lists and non-streaming chat. **Legacy prototype** · MIT. |
 
 **Supporting repositories:** [matthewhand](https://github.com/matthewhand/matthewhand) (this profile) · [matthewhand.github.io](https://github.com/matthewhand/matthewhand.github.io) (personal website source).
 

@@ -4,7 +4,7 @@ I build local-first AI tools, agent workflows and useful apps, spanning speech, 
 
 My projects and integrations are listed first, followed by selected upstream contributions.
 
-**Quick links:** [AI Infrastructure](#ai-infrastructure) · [Desktop Software](#desktop-software) · [Android TV Apps](#android-tv-apps) · [Self-hosted Web Apps](#self-hosted-web-apps) · [Open-source contributions](#open-source-contributions)
+**Quick links:** [AI Infrastructure](#ai-infrastructure) · [Hardware & Input](#hardware--input) · [Android TV Apps](#android-tv-apps) · [Self-hosted Web Apps](#self-hosted-web-apps) · [Open-source contributions](#open-source-contributions)
 
 <img src="https://raw.githubusercontent.com/matthewhand/matthewhand/main/assets/section-divider.svg" alt="" width="600">
 
@@ -44,7 +44,7 @@ Nginx/njs adapter for Llama Stack model lists and non-streaming chat.
 
 <img src="https://raw.githubusercontent.com/matthewhand/matthewhand/main/assets/section-divider.svg" alt="" width="600">
 
-## Desktop Software
+## Hardware & Input
 
 <img src="https://raw.githubusercontent.com/matthewhand/open-wiimote/main/docs/images/open-wiimote.svg" alt="OpenWiimote: bring your Wii Remote back into play" width="600">
 
@@ -95,6 +95,12 @@ Local watched-folder browser for JPEG snapshots and grouped visits, with a demo 
 ### [operating&#8209;swarm](https://github.com/matthewhand/operating-swarm)
 
 Agent workflows across model APIs, agent CLIs and remote harnesses, with an API, CLI and WebUI.
+
+---
+
+### [Trackie Assistant](https://github.com/matthewhand/trackie-assistant)
+
+Archive permitted public Suno tracks locally, with a WebUI, CLI and Home Assistant add-on.
 
 <br>
 
